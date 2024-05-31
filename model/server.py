@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, make_response, Response
+from flask import Flask, jsonify, request, make_response, Response, send_file
 from genkeeper import *
 
 MODEL = 'model.pth'
@@ -15,15 +15,6 @@ def get_prediction_endpoint(query):
   
   return get_prediction(query)
 
-@app.get("/v1/chops/<link>")
-def get_chops(link: str):
-  try:
-    link = str(link)
-  except ValueError:
-    return make_response(jsonify({ "error": f"cannot parse link as string: '{link}'" }), 400)
-  
-  
-  
 def get_prediction(query: str) -> Response:
   try:
     return make_response(jsonify({ "query": query, "prediction": genkeeper.predict(query) }), 200)
