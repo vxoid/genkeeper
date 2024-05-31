@@ -5,7 +5,7 @@ import os
 
 TRAIN_SIZE = 0.8
 BATCH_SIZE = 64
-EPOCHS = 1000
+EPOCHS = 500
 DATASET = "anotations.csv"
      
 def get_device() -> str:

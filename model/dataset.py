@@ -5,7 +5,7 @@ import pandas as pd
 from tcm import *
 import re
 
-def _preprocess_text(text: str) -> str:
+def preprocess_text(text: str) -> str:
   text = text.lower()
   text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
   return text
@@ -22,7 +22,7 @@ def _build_vocab(texts: List[str]):
 class Dataset(data.Dataset):
   def __init__(self, annotations: str, length: int = 80, device: str = "cpu"):
     self.annotations = pd.read_csv(annotations)
-    texts = [_preprocess_text(text) for text in self.annotations["text"].values]
+    texts = [preprocess_text(text) for text in self.annotations["text"].values]
     self.labels = torch.tensor(self.annotations["label"].astype(int).values, dtype=torch.float32).to(device)
     self.device = device
     self.vocab = _build_vocab(texts)
@@ -59,7 +59,7 @@ class Dataset(data.Dataset):
 
   def _cut(self, seq: torch.Tensor) -> torch.Tensor:
     if seq.shape[0] > self.length:
-      return seq[:, :self.length]
+      return seq[:self.length]
 
     return seq
 
