@@ -6,7 +6,6 @@ import os
 TRAIN_SIZE = 0.8
 BATCH_SIZE = 64
 EPOCHS = 500
-DATASET = "anotations.csv"
      
 def get_device() -> str:
   gpu_available = torch.cuda.is_available()
@@ -16,9 +15,9 @@ def get_device() -> str:
   return device
 
 class GenKeeper:
-  def __init__(self, path: str):
+  def __init__(self, path: str, dataset: str):
     self.device = get_device()
-    self.dataset = Dataset(DATASET, device=self.device)
+    self.dataset = Dataset(dataset, device=self.device)
     self.path = path
 
     self._train_or_load()

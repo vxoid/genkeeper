@@ -1,10 +1,15 @@
 from flask import Flask, jsonify, request, make_response, Response, send_file
 from genkeeper import *
+import dotenv
+import os
 
-MODEL = 'model.pth'
+dotenv.load_dotenv()
+
+MODEL = os.getenv('MODEL')
+DATASET = os.getenv('DATASET')
 
 app = Flask(__name__)
-genkeeper = GenKeeper(MODEL)
+genkeeper = GenKeeper(MODEL, DATASET)
 
 @app.get("/v1/predict/<query>")
 def get_prediction_endpoint(query):
@@ -28,4 +33,4 @@ def create_error_message(e):
   return {"error": str(e)}
 
 if __name__ == "__main__":
-  app.run(debug=True, port=8080)
+  app.run(debug=True, port=int(os.getenv('PORT')))
