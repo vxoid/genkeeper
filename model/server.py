@@ -1,4 +1,5 @@
-from flask import Flask, jsonify, request, make_response, Response, send_file
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import JSONResponse
 from genkeeper import *
 import dotenv
 import os
@@ -8,29 +9,22 @@ dotenv.load_dotenv()
 MODEL = os.getenv('MODEL')
 DATASET = os.getenv('DATASET')
 
-app = Flask(__name__)
+app = FastAPI()
 genkeeper = GenKeeper(MODEL, DATASET)
 
-@app.get("/v1/predict/<query>")
-def get_prediction_endpoint(query):
-  try:
-    query = str(query)
-  except ValueError:
-    return make_response(jsonify({ "error": f"cannot parse query as string: '{query}'" }), 400)
-  
+@app.get("/v1/predict/{query}")
+async def get_prediction_endpoint(query: str = ""):  
   return get_prediction(query)
 
-def get_prediction(query: str) -> Response:
+def get_prediction(query: str):
   try:
-    return make_response(jsonify({ "query": query, "prediction": genkeeper.predict(query) }), 200)
+    return { "query": query, "prediction": genkeeper.predict(query) }
   except Exception as e:
-    return create_error_response(e)
+    create_error(e)
 
-def create_error_response(e):
-  return make_response(jsonify(create_error_message(e)), 500)
-
-def create_error_message(e):
-  return {"error": str(e)}
+def create_error(e):
+  raise HTTPException(status_code=500, detail=f"Error: {e}")
 
 if __name__ == "__main__":
-  app.run(debug=True, port=int(os.getenv('PORT')))
+  import uvicorn
+  uvicorn.run(app, host=os.getenv('HOST'), port=int(os.getenv('PORT')))
