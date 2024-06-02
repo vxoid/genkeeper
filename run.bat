@@ -1,3 +1,3 @@
 @echo off
-call python model/server.py
-call npm run dev
+start cmd /c "python model/server.py"
+start cmd /c "cd client && npm run dev"
