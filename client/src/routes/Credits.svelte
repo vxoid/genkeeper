@@ -4,7 +4,7 @@
   const vxoid = { name: "VXOID", link: "https://www.instagram.com/vxoid.lostmyself/" }
 </script>
 
-<div class="footer">
+<div class="footer page">
   <h3 class="liner">Credits</h3>
   <div>
     <div class="credits">
@@ -21,12 +21,6 @@
   .copyright {
     font-size: smaller;
     color: var(--side-text-color);
-  }
-
-  .footer {
-    margin: auto;
-    min-width: 200px;
-    max-width: 700px;
   }
 
   .credits {
