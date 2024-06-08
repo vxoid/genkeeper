@@ -8,7 +8,7 @@
 	<title>Import</title>
 </svelte:head>
 
-<div class="page">
+<div class="import">
   <form method="POST" action="?/import">
     <p>Enter YouTube Link</p>
     <div class="importform">

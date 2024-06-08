@@ -167,7 +167,7 @@ text,label
 "Push yourself, because no one else is going to do it for you.",1
 "Great things never come from comfort zones.",1
 "you know what i hate about that is the sentiment is there the sentiment of that idea is pretty cool it doesnt matter how the past you know has played out you've got time to make some serious moves",1
-"bro", 0
+"bro",0
 "there are worse crimes than burning books one of them is not reading them",1
 "thats the thing about books they let you travel without moving your feet",1
 "accept yourself love yourself and keep moving forward if you want to fly you have to give up what weighs you down",1
@@ -185,6 +185,8 @@ text,label
 "painting is poetry that is seen rather than felt and poetry is painting that is felt rather than seen",1
 "if youre looking for sympathy youll find it between shit and syphilis in the dictionary",1
 "life is too short to waste your time on people who dont respect appreciate and value you",1
+"everything I've done on my computer ever as well as metadata that can be searched through that is just like text that you can search to see what kind of things I'm doing on my computer so for example if someone wanted to know if I were",0
+"that a hacker could take and use to hold me Ransom use to steal my Identity or anything like that consider the case that now instead of having a folder called tax information I literally have an infinitely long tape reel of",0
 "i have great faith in fools  selfconfidence my friends will call it",1
 "people are afraid of themselves of their own reality their feelings most of all people talk about how great love is but thats bullshit love hurts feelings are disturbing people are taught that pain is evil and dangerous how can they deal with love if theyre afraid to feel pain is meant to wake us up people try to hide their pain but theyre wrong pain is something to carry like a radio you feel your strength in the experience of pain its all in how you carry it thats what matters pain is a feeling your feelings are a part of you your own reality if you feel ashamed of them and hide them youre letting society destroy your reality you should stand up for your right to feel your pain",1
 "i have found the paradox that if you love until it hurts there can be no more hurt only more love",1
@@ -206,7 +208,7 @@ text,label
 "man may have discovered fire but women discovered how to play with it",1
 "i cannot fix on the hour or the spot or the look or the words which laid the foundation it is too long ago i was in the middle before i knew that i had begun",1
 "education is the most powerful weapon which you can use to change the world",1
-"being crazy isnt enough",1
+"being crazy isnt enough",0
 "one day in retrospect the years of struggle will strike you as the most beautiful",1
 "if you have a garden and a library you have everything you need",1
 "life is pain highness anyone who says differently is selling something",1
@@ -249,22 +251,28 @@ text,label
 "Watched a few reruns of an old TV show. It was a quiet evening.",0
 "The sky was gray all day. Just another overcast day.",0
 "Did some online shopping but didn't find anything interesting to buy.",0
+"probably want to have eaten at least 200 gram of carbs before this workout but if the lift itself isn't insanely taxing per se and like a hard back day still is but not compared to a",0
 "Had a basic sandwich for lunch. Nothing special, just ham and cheese.",0
 "Read the newspaper in the morning. Just catching up on the daily news.",0
 "Went for a routine check-up at the doctor's office. Everything is fine.",0
 "The traffic on the way home was pretty heavy. Took longer than usual.",0
 "Spent some time organizing my closet. It's good to have things in order.",0
 "Prepared a simple pasta dish for dinner. It was quick and easy.",0
+"this is the table its covered in gains and you just walked away from it",1
 "Spent the afternoon working on my taxes. It's that time of the year.",0
 "Checked the weather forecast for the week. It looks like it's going to be mostly the same.",0
+"a lot of people ask me about motivation how do I stay motivated to hit the gym every day to stick to my diet to keep pushing myself and the truth is motivation is fleeting you can't rely on motivation to get you through every workout or every tough day",1
 "Had a cup of tea in the afternoon. Just a moment to relax.",0
+"Discipline is where it's at. You need to build habits routines that you follow day in and day out no matter what It's about consistency",1
 "Went for a walk in the park. It was quiet and peaceful.",0
 "Spent the evening browsing through social media. Not much happening.",0
 "Did a bit of gardening. Just trimming the hedges and watering the plants.",0
 "Folded and put away the laundry. Another routine task.",0
 "Listened to a podcast while doing some light exercises at home.",0
+"Another thing I want to talk about is patience. We live in a world where everyone wants quick results, instant gratification. But building a strong, healthy body takes time. You have to be patient with yourself and trust the process. Don’t get discouraged if you don’t see progress right away. Keep grinding, keep pushing, and the gains will come",1
 "Had a basic cereal breakfast. Just to start the day off.",0
 "Spent some time updating my calendar and scheduling appointments.",0
+"variable approach in a way because I can eat whatever I don't have to meal prep five meals for the day I can say Okay I want to have some eggs uh yeah some my buddies are going for going to get Chipotle after the workout yeah I'll come with them I'll just get a",0
 "The weather is quite predictable this week, mostly sunny with occasional clouds.",0
 "Reorganized my bookshelf. Put some old books in storage.",0
 "Had a glass of water before bed. Staying hydrated is important.",0
@@ -273,6 +281,7 @@ text,label
 "Cooked some rice and vegetables for dinner. Keeping it simple.",0
 "The sunset was nice today, but nothing out of the ordinary.",0
 "Spent the evening doing some light reading. Just a few chapters of a novel.",0
+"id rather go too far than not far enough",1
 "Went to bed early to catch up on sleep. It was a quiet night.",0
 "Organized my digital files on the computer. Deleted some old documents.",0
 "The mail today was mostly junk. Nothing interesting.",0
@@ -325,7 +334,742 @@ text,label
 "when he shall dietake him and cut him out in little starsand he will make the face of heaven so finethat all the world will be in love with nightand pay no worship to the garish sun",1
 "love is a fire but whether it is going to warm your hearth or burn down your house you can never tell",1
 "Had a plain yogurt for breakfast. It's part of my routine.",0
+"dont worry man these lifts add up, you will fuckin get something out of it, and not just something to show off to other people either, if you kind of try to analyze your own self motivators what do you think is pushing you harder to impress other people or to impress yourself",1
 "why do people have to be this lonely whats the point of it all millions of people in this world all of them yearning looking to others to satisfy them yet isolating themselves why was the earth put here just to nourish human loneliness",1
 "the most important things are the hardest to say they are the things you get ashamed of because words diminish them  words shrink things that seemed limitless when they were in your head to no more than living size when theyre brought out but its more than that isnt it the most important things lie too close to wherever your secret heart is buried like landmarks to a treasure your enemies would love to steal away and you may make revelations that cost you dearly only to have people look at you in a funny way not understanding what youve said at all or why you thought it was so important that you almost cried while you were saying it thats the worst i think when the secret stays locked within not for want of a teller but for want of an understanding ear",1
 "love conquers all aphrodite promised look at helen and paris did they let anything come between themdidnt they start the trojan war and get thousands of people killedpfft thats not the point follow your heart",1
 "you do not write your life with wordsyou write it with actions what you think is not important it is only important what you do",1
+"I'm going to try to make some points that are honestly pretty simple but I think you probably haven't heard most of them before and quickly before I start someone always comments leak code is useless save your time doing real development blah blah",0
+"blah it's completely true I've never encouraged people to grind leak code I've only like told them how to do it it's true that most full stack jobs don't require knowledge of data structures and algorithms I would still personally argue that DSA knowledge is still useful at least understanding like",0
+"the core algorithms but you know what else is true you probably went to school for 20 years of your life learning a lot of things that you aren't going to use at your full-time job that doesn't mean learning those things was useless from",0
+"my perspective if spending a couple months grinding leak code can get me a really high-paying job then honestly I don't care how useless it is because leak code literally changed my life even if I didn't create like the YouTube channels the fact that I was able to get",0
+"a job at Google just because I grinded leak code seems pretty worthwhile to me and I think it's a life-changing job for most people but how do you actually get good at leak code let me explain when I first started doing leak code problems I",0
+"an adult is not when you have like eight hours in a day it's easy to procrastinate but when you're a kid you have like one hour with this class a second hour in Spanish class or whatever and that kind of you know structure is pretty useful full when it comes to learning there's a reason why everybody does it all around the world",1
+"algorithm or BFS algorithm from scratch it's about understanding exactly why it works I try my best in my videos to explain this but it's not always easy unless I want to make like an hour long video my advice to you for figuring this",0
+"that a lot of the things you did as a kid and maybe you stopped doing as an adult were very very useful to you like thought process repetition even boring repetition even doing something so many times to the point where it just gets so boring",1
+"nobody can go in your brain and actually force you to think about why something works and you do need a little bit of curiosity for that",1
+"just hit it if you're seriously hungry and you haven't set your day up well enough it's going to be hard to fight the actual urge to eat I mean it's one of your strongest once you know any living organism is pretty much meant to eat",0
+"you know the last thing you want to do is pour a congealing fat and have it get sucked up and clog your drain but that with a serving of um zero sugar sweet baby raised barbecue sauce that's going to put me at 110 g of protein for the day 115 G of carbs",0
+"The person who enjoys walking, will walk further than the person who enjoys the destination",1
+"easily mistaken it is not about a love for adversity it is about knowing a strength and a faith so great that adversity in all its adverse manifestations hardly even exists",1
+"those who dont value their words will never value your wishes",1
+"bukan seberapa lama umat manusia bisa bertahan hidup sebagai ukuran kebahagiaan tapi seberapa besar kemampuan mereka memeluk eraterat semua hal menyakitkan yang mereka alami",1
+"everyone has moments of weakness but that doesnt make you weak",1
+"reach for the sky but keep your feet on the ground",1
+"live as many lives as you can",1
+"dont be indifferent about any random idea that occurs to you because each and every idea is for a particular purpose it may not be beneficial to you but can be what others are craving for",1
+"ability experience and books have solution for all the problems",1
+"i figure sometimes bad things happen to us so we can achieve a higher purpose and attain greater happiness and fulfillment in life",1
+"your youth is certainly finished and old age has definitely arrived if you feel that you are losing enthusiasm excitement and energy towards your dreams and goals",1
+"dare to be a fool in the face of impossibilities",1
+"if thinking should precede acting then acting must succeed thinking",1
+"compromise brings harmony to both happiness to none",1
+"dont violate the law but dont reject an idea because its illegal you might be able to get the law changed",1
+"holding on to the past will hold you down in life learn from it but move on",1
+"greatness comes from the inside and once you believe you have it its yours to share with the world",1
+"if you are not able to see your goals they will take longer to achieve and sometimes longer is never",1
+"you dont get what you wish for you get what you work for",1
+"between natural ability and education choose natural ability as it will keep you happy and will fetch you the glory sooner",1
+"if you dare take the challenge you will possess the courage to conquer",1
+"the greatest happiness is a quiet kind its the tender understanding that were living in a very strange place full of strange creatures and theres quite a bit of wonder in that",1
+"it takes understanding to be outstanding",1
+"one sure way to kill a dream is to suffocate it with worry",1
+"you cannot fit yourself in to greatness this can only be done by embracing and pursuing your biggest dreams and desires",1
+"well if it can be thought it can be done a problem can be overcome",1
+"anytime youre afraid to try something newjust remember amateurs built the ark professionals built the titanic",1
+"without inspiration the best powers of the mind remain dormant there is a fuel in us which needs to be ignited with sparks",1
+"to achieve anything you must be prepared to dabble on the boundary of disaster",1
+"like everything in life it is not what happens to you but how you respond to it that counts",1
+"dont hide what you have just because people tell you its not normal i have known normal peopleand guess what they are as boring as hell",1
+"it is never about who is right or wrong it is about what is best",1
+"shame and blame should have no place in our body mind or spirit",1
+"our perceptions are influenced by our surroundings",1
+"you can start to change your luck today begin believing that you can have what you desire and superior things will arrive",1
+"fear is the fatal killer of desire",1
+"get a grip on yourself theres only one god here on earth and thats you if you dont like the world make one you like better",1
+"shrug off the nos  they are temporary this is your world in your world there is only yes",1
+"the thrust of continuous action is the firewood which fuels motivation",1
+"through my choices and actions i have learned the most effective way of speaking to god is without saying a word",1
+"submission to what people call their lot is simply ignoble if your lot makes you cry and be wretched get rid of it and take another",1
+"trust your passion identify your dreams and find the courage to share them with others no matter how many times they call you a fool",1
+"on your quest to spirituality it is often required to suspend your rationality but true spirituality asks that you enhance your rationality",1
+"not matter what your sacred or religious book is its not how well you know the book its how well youre in alignment with the author",1
+"along our chosen paths we all meet up with demons we must meet them and battle them even when they are nothing but mist in the night",1
+"faith is the poetry of our dreams action is the builder of our reality",1
+"i ask myself are defeats necessary wellnecessary or not they happenwhen we first begin fighting for our dream weve no experience and make many mistakesthe secret of life thoughis to fall seven times and to get up eight times ",1
+"holding on holding out and holding fast when the going is tough constitutes a winning mindset",1
+"dont forget to collect the memories on your journey remember if you only focus on your destination you will miss out on the benefits of the journey",1
+"make peace with your past so you dont mess up the present",1
+"confidence can be learned  but not from a book confidence comes from from living",1
+"the moon stared at me through sprinkled nighttime stardust and i alone smile",1
+"in your name the family name is at last because its the family name that lasts",1
+"comfort zone simply means the routine of ones daily life  it is a psychological state in which one feels familiar safe at ease and secure",1
+"those who win never give upthose who give up never win",1
+"your rebel soul shines like a diamond pulled from dust bright clear and flawless",1
+"hopes wants and wishes all cast across the night sky with my heart in tow",1
+"not all things that fall down break some develop wings",1
+"your greatness is measured by your horizons",1
+"start small and keep going",1
+"if one million of you give assent to the one thousand who participate in the murder of a child then one million of you are a million times guilty",1
+"confident assured posture foundation of powerful style",1
+"changing a habit is never difficultdifficult is to address your unwillingness to do it",1
+"learning to focus on the big picture will help you keep things in a proper perspective",1
+"no crime is a means to an end no crime can be rationalized",1
+"what you wish to be be",1
+"if one thousand of you participate in the murder of one child then one thousand of you are a thousand times guilty",1
+"we put great expectations on our tomorrows when we truly need to rely on ourselves far too many overlook personal action as a means to get things done blame is easily passed if one does not hold themselves accountable",1
+"man is not merely born to make money but to fulfill is mission",1
+"there is only one thing that is more natural than thinking breathing and it is in breathing that we find the door to happiness",1
+"if you are paying someone to motivate you seriously you should rather pay to a psychiatrist",1
+"life isnt a struggled to know whats right its a struggle to do it",1
+"ive had many dreams useless dreams while sleeping priceless are those that guide me while awake",1
+"make your lives a masterpiece you only get one canvas",1
+"we cannot walk alone and as we walk we must make the pledge that we shall always march ahead we cannot turn back",1
+"tomorrow will never call to ask your opinion you dont control it stop allowing todays possibilities to be robbed by tomorrows insecurities",1
+"time is too short in this one life to be able to do everything but it definitely is long enough at least to be able to develop the will to do anything  everything",1
+"in meetings philosophy might workon the field practicality works",1
+"the victory over our inner self is a daily struggle be strong and do not give up",1
+"when you practice leadershipthe evidence of quality of your leadership is known from the type of leaders that emerge out of your leadership",1
+"i acquired courage from the masterpieces of sages i came of age by their instructions to keep going even in hard times then i learnt not to despair even when it seemed that my world is falling apart i learnt to possess fortitude",1
+"you can keep pondering on which thing to do first or which path to take or by simply taking action now of most any kind you may just find yourself on the way to where you most needed to go",1
+"when you start to accept responsibility for the results you get in life you also take back the power to change your future outcome",1
+"lets always try to paint the truth  our art must be made to mean something",1
+"a man who has come to the full realization of his responsibility to men wont stick to one man it will be foolhardy if he does that",1
+"be creative enough to dream brave enough to try persistent enough to succeed and humble enough to thank those who helped you along the way",1
+"the results of knowledge without application results in nothing at all do what you know better to do",1
+"perform your task and i shall know you perform your task and your genius shall befriend the more",1
+"failure does not connote that you achieved nothing it denotes that you are on an adventure towards finding what will eventually advance you to the realization of your goals",1
+"just like waves in the ocean come and go no challenge is permanent problems will come and go too we must enjoy the challenges just like we enjoy the waves  rvm",1
+"with a decision and a defined purpose you can begin work",1
+"maybe the secret to continued success is as simple as knowing that your past successes could be done so much better now",1
+"over the years ive come to realize that determination makes one to punch above ones weight",1
+"when a man begins to do that which is assigned to him it becomes as if he is more endowed and favoured than his fellows",1
+"en la vida se tienen pretextos o resultados hay quienes piensan que ambas cosas valen lo mismo",1
+"busca descubre innova conoce encuentra y sigue buscando",1
+"its been said that legends are those who shape change into greatness shaping change is one of the hallmarks of genius",1
+"live dont just exist dont drag through lifelive each day as a celebrationrvm",1
+"that failure serves a purpose",1
+"wisdom comes from knowing the order of thingsand you are the first order of your business",1
+"rvm thoughts for today  things will happenyou cant stop them from happening but you can control your reaction from making things worse  react positively live happily ",1
+"problems are everywhere so are solutions unfortunately we see more of the problems than the solutionsrvm",1
+"are you living in the moment",1
+"if you have positive energy you will always attract positive outcomes",1
+"look for solutions instead of being difficult be more thoughtful instead of allowing anger to burn you out look at things from a different perspective embrace change look out for opportunities and you will feel much more in control",1
+"are you seeking to be offended",1
+"see it first in your mind then become it",1
+"every time a champion makes a decision they have a chance to learn something new regardless of the outcome",1
+"invest your energy in the things you can control",1
+"what is an unconditional state",1
+"a mind filled with negative thoughts makes you feel miserable and inadequate and will lead to failure after failure no matter how hard you try to succeed",1
+"we cannot put off living until we are ready the most salient characteristic of life is its coerciveness it is always urgent here and now without any postponement life is fired at us pointblank",1
+"if humans can live for 100 years why do companies die so young",1
+"lucky people will focus on whats in front of them rather than scrabbling about for what theyre searching for",1
+"explore train your conscious mind and your subconscious mind to start working for you by getting those great powers to move in a new direction start creating your own good luck today",1
+"remember if you dont do anything  if you dont change the way your mind works and direct your subconscious mind to create the life you want  then everything stays the same nothing changes",1
+"they dont give olympic medals out for talking a good game",1
+"to think is good to obsess is bad",1
+"the challenge for you is to decide not what is important but what is most important and then focus your attention on that",1
+"although you cant go back in time and alter your natural level of potential you can determine how much of that ability you tap into exploit and develop for the future",1
+"when you think a positive thought you become positive",1
+"the real beginning of influence comes as others sense you are being influenced by themwhen they feel understood by youthat you have listened deeply and sincerely and that you are open",1
+"for many lack of achievement is more a consequence of fear of taking a chance and getting uncomfortable",1
+"the way forward is to stop pestering yourself for answers and let it the creative part of your mind come up with the solution when the time is right",1
+"if you decide not to take action you are going to fail and even if you do take action if you cant keep up your motivation you will simply end up back where you started",1
+"these are the people who will encourage you to go after your dreams and will inspire you to succeed stick to them like a barnacle to a rock",1
+"success is virulent once you get the bug then its in you",1
+"the people and successes in your life mirror your beliefs",1
+"tell me your thinking and ill tell you what your life looks like",1
+"to deliver your own personal maximum youll realise there are no shortcuts if you want to be a champion it is all about rolling your sleeves up and getting stuck in",1
+"trust in your own beliefs or succumb to the influence of others",1
+"we do not just go through life blindlywe create our own journeyyour faith has sculpted you into the human being you have become",1
+"jenifer always taught me that starting a job was one thingand admirablebut that following through and completingwell thats where the bravery is",1
+"the subjects of what should i do with the rest of my life have convinced me that past failing can as easily prove preparatory as predictive age does not of itself limit on enable us the choice is ours",1
+"north carolina has a monument to peter francisco and no one knows that thats the kind of stuff that drives me",1
+"it was in 2020 that i started posting my poetry online the world was too lonely and scared then and i wanted to see if my words could be of any help",1
+"you cant control how youre loved otherwise you will only get the control and not the love",1
+"my passion shone through my words captivating the readers attention and fostering a connection",1
+"identifying your motivation as a writer serves as a compass guiding the creative journey with purpose and clarity",1
+"dont let the past determine the present moment because it has no power over it",1
+"life calls us to where we need to be and not where we want to be its that simple",1
+"do not be petrified while looking behind burn all the bridges the only correct path is always ever forward",1
+"life is meant to realize yourself as a divine being",1
+"you doubt your value do not run from who you are",1
+"no one can teach you the better than adversity",1
+"first you have to push peoples boundaries and not feel bad about it no one is going to give you anything if you dont ask for it",1
+"what ive realised is that each event in our lives brings us closer to who were supposed to be and to what were supposed to do",1
+"understanding why things happen the way that they do makes you better prepared to face them",1
+"Microsoft recall a new AI tool by Microsoft is one of the biggest mistakes in terms of privacy that I've ever heard of in the history of computing if you don't know what recall is in this video we'll break down what recall is why I think it's such a security issue and",0
+"we'll talk about the troves of people that are actually leaving the windows Community to use Linux as desktop just to avoid this feature now if you're new here hi my name is Ed this is lowle learning a channel where I make videos about software and security so if you like that stuff or just want to hang out",0
+"the words of the quran are omnipresentyet its spirit lies dormant",1
+"the criticshave it backward the quran is not the source of the muslim worlds problems but its untapped solution",1
+"the quran was not a book per se or any other kind of physical object but rather an unfolding experienceits own unique category of living being",1
+"the words of the quran are omnipresentyet its spirit lies dormant",1
+"winter is coming follow these rules for a disciplined mind and positive changes",1
+"success is not a food to be consumed by all but for those who can pay the price bear the risk and dare the unbearable challenges those who dare to surmount staring obstacles",1
+"question asked with a matching answer help to light your path in life as you light up your path you have lightened the world which is your contribution to humanity",1
+"every challenge in life is an opportunity to polish your skills",1
+"inside each of us is untapped potential just waiting to be discovered but first you need to replace those negative voices in your head with uplifting messages of selfbelief",1
+"if youre moving forward move on if youre not make a move",1
+"adhd is a challenge not a curse find your strengths and let them shine",1
+"your mind is a garden filled with beautiful ideas make time to nurture them",1
+"progress not perfection take small steps forward each day",1
+"you are more than your adhd believe in your talents and abilities",1
+"be patient and gentle with yourself some days will be tougher than others",1
+"fear and failure are inevitable in life but those who face them with courage and perseverance transform their lives and inspire others with their actions",1
+"i must always write this way i must always feel  and deeply",1
+"your days are numbered change your ways before its too late",1
+"i never realised power of x for a function fx when i was in school",1
+"i never realised power of x of function fx when i was in school",1
+"education provides the key but its your responsibility to unlock the door to your career",1
+"nothing enriches our life more than the moments we share with our family they inspire us to work harder and dream bigger every day",1
+"but you know this was actually fun while it lasted humans jujutsu sorcerers cursed spirits youre not bad compared to those i fought over the last thousand years stand proud youre strong",1
+"to lead you need to be equipped to be equipped entails being passionate about a specific idea",1
+"whether theyre superior or inferior older brothers are role models for their younger brothers if the older brother takes the wrong path the younger brothers can avoid it and if i take the right path my little brothers can follow behind",1
+"you asked why im tough ill tell you its because i didnt have someone to guide me so i kept making mistakes nonetheless i must walk ahead of my little brothers thats why im strong",1
+"sorry but you didnt love your brothers and i cant understand that",1
+"if all your weekends are the same that means youre not collecting experiences",1
+"kadar ima polno rit vsega ni noben stol dovolj udoben",1
+"negative and positive energy thrives the different area we channel our energy is the issue and not the energy itself",1
+"i am not happy because i have it all i am happy because i have all that some dont have",1
+"pay no attention to the rules  be anarchic my definition of anarchy is do what you want but dont hurt anyone in the doing",1
+"dreams are nothing if not acted upon and turned into reality",1
+"from the ability to fail not a conscious fear of failure just terror of everyday life",1
+"search out the pretensions the rubbish the gloss the whitewash the emulsions of life covering the real feeling real examination real creativity",1
+"so begins a new process designed to wake up your creative impulse",1
+"dont lead a life consumed by triviality let others do that",1
+"keep fixed on the important things like love loving and being loved",1
+"only develop friendships with people you admire i admired people who broke the rules when the rules made no sense",1
+"above all surround yourself with friends who make you laugh especially if you live with them when they no longer make you laugh throw them out and recycle them",1
+"we are never fucking brave enough",1
+"if you want to be happy try never to be negative as a plan it is unproductive and does not work",1
+"life from the other end",1
+"live by your own conventions",1
+"more symptoms of what my inner engine reveals  nothing ordered nothing built on logic",1
+"the great beauty in the english language innumerable ways of continuing the graphic with explosive the lyrical the loving with the spiritual  like dogs nuzzling cleaning copiloting thoughts into the ether of creativity",1
+"the smug grin of a thought well described the laughter as others connect with the thought well received a light of recognition a delight of recognition switched on triggered by words",1
+"it is as much about input  the conversation of imaginative men women and children not excluded has a rhythm a phrase that follows a thought and precedes the development of further thought  try not to be a cunt",1
+"dare to live completely i dare you",1
+"words are very good but it is actions going forward that count",1
+"a running theme there are no rules",1
+"there was a running theme through my friendships and it was that of anarchy i just loved people who were clear and definite in the proposition of life",1
+"what do you want to do with your life",1
+"be the change then lead the change",1
+"above all leaders are talent coordinators find the talent foster talent and fit the individual talent to create a dynamic team",1
+"if youre not going to go down fighting then you dont deserve to be here",1
+"there is nothing impossible to they who will try",1
+"the amount and the way i love myself is my superpower",1
+"when god opens that door of opportunity run through it full speed",1
+"it is often the seemingly least significant details of each day that turn out to shape our most lifealtering events",1
+"never write people off surprisingly it could be your worst enemy that saves your life",1
+"just one small positive thought in the morning can change your whole day",1
+"lets bend this voices beyond around us and choose to be brave",1
+"i hope that your problems are fewer and less painful than mine",1
+"when you see something wrong happening in the world you can do nothing about it or you can do something about it",1
+"under the spotlight of the streetlightsthat wait for me to shine over the moonlight it feels so rightim poetry in motionits part of my devotioni play with all emotion under the spotlight of the streetlights",1
+"running after my own dreamstripping over my own feetheld on to my self esteemwalking to my own loud beatso stand tall or take a seat",1
+"a warrior sharpens his blade even in times of peace",1
+"a full heart can enrich your life in ways that a full wallet cannot money can only satisfy your needs but love can fulfill your desires love is the true wealth that money cannot buy",1
+"sometimes you arent meant to worry about the how instead you are being called to focus on taking things stepbystep one foot in front of the other its all coming together",1
+"take care of your gut this will help with your intuition",1
+"sometimes you have to place your pride and fear to the side and courageously ask for an opportunity but make sure youre 100 prepared if they say yes",1
+"never miss an opportunity to incorporate learning into life",1
+"once to live once to die while youre living live a memorable life",1
+"a dream is like a child it should be conceived cared for birthed nurtured and tender till it grows to become giant",1
+"a successful man is the one who does more of all he does in other to service humanity",1
+"the bank of knowledge is a sure bank of success for it can birth any imagined good endeavor",1
+"maintain an undying relationship with god and enjoy all of his benefits do not run to him only when you feel you need him you may be disappointed",1
+"snap from the danger of your comfort zone to enable you to become who you are meant to be",1
+"i will reach out to the world from the corner of my little space and no devil can stop me from fulfilling this purpose",1
+"when you hide from responsibilities you hide from greatness and you hide from progress",1
+"the discovery of our calling is a great task a task that is worth all of our efforts",1
+"lazy people do a little work and think they should be winning winners work as hard as possible and still worry that they are being lazy",1
+"its true that jealousy is a desease so instead of shaming those who suffer from it please wish them a speedy recovery",1
+"by being kind you have already begun your journey to the self",1
+"im in the mood to study and absorb all of the knowledge that i can right now",1
+"if it doesnt excite me i do not pursue it",1
+"the greatest support you can get from a wellwisher is one question do you think you can do it",1
+"intellectual product is the most creative of all products but appreciated by a few who are in the control of the majority that are mentally lazy",1
+"a lazy hand cannot smell true success no matter his level of faith hope and or aspiration",1
+"popularity is no guarantee of truth and human flattery does not bring gods approval",1
+"when you are not purposedriven anything goes a purposedriven man is almost a oneway jacketed man",1
+"maturity in any relationship makes the practice of love comfortable",1
+"reading will give you happiness happiness will lighten up your face and lightened face will attract favor",1
+"the higher you fly the higher they look up to you fly up for their sake",1
+"no one ever gets anywhere by being mentally weak",1
+"history is written by the winners strife to be one at all legitimate cost possible",1
+"one piece of revelation can turn a man into a success story",1
+"the things that pertain to your destiny are bought with time the way you spend your time determines what you become",1
+"failure should not be a giving up point it should give room for a restructured process",1
+"one of the origins of poverty is lack of respect for time",1
+"motivate yourself by practicing positive self discipline without self discipline there is no self motivation",1
+"crave for transcending or else it will become compulsive",1
+"on the road to your life purpose you will hit bumps and potholes along the way so buckle up grip the wheel with both hands and keep your foot on the gas enjoy the ride",1
+"everything that is due to me is going to be given to me",1
+"create something out of nothing you are a vessel and your vessel is important but if you dont treat it like its important then youre not gonna have what it is you want to have youll always be so close but no cigar",1
+"dont wait for somebody to give you something youre strong youre intelligent go out and earn it and work for it",1
+"acknowledge that it will require blood sweat and tears many people will tell you to only work smart but the reality is that you have to work hard smart and long",1
+"the more you sweat in practice the less you bleed in battle",1
+"what does it really take to make a difference in the world in a word focus relentless focus",1
+"liminal space is the norm on the path of a spiritual entrepreneur because the nature of doing something tangible in the world while maintaining a spiritual focus requires constant transformation",1
+"despite the despair and suffering still on our planet humanity is moving toward unity justice love and peace",1
+"spiritual entrepreneurship is a collective community working together to expand love",1
+"who could you be if you didnt know who you were",1
+"since love is the fundamental energy of the universe aiming to expand love grows usnot just ourselves personally but everyone and everything around us",1
+"we cant rely on our own limited vision but must seek to see through heavens eyes",1
+"learning to read and write is like sailing on a sea of knowledge where every wave is a new opportunity and every shore is a new achievement happy international literacy day",1
+"every enemy can be beaten all you need is the right team at your back",1
+"the wrong people will only bring you only sorrow and grief good people will give you joy and comfort choose wisely whom you come close to and whom you let go",1
+"in the light of your success they see you in the shadows of your struggle you see them",1
+"so in life sometimes we have to stay alone but never give up our path to glory",1
+"failure can have a certain grandeur that success never knows",1
+"some people live for themselves good people live for others successful people live for the present and others to come",1
+"embrace who you areand blossom as you are",1
+"and once you realise that youve been me and i have been you youd be more understanding",1
+"being in a toxic relationship is a drug and it needs to be treated like any other drug",1
+"i kissed your fist and now youre healed",1
+"the more you try the more you learn the more you learn the more you grow the more you grow the closer you get to your destination dont let failure stop you from trying again",1
+"education is the key to unlock the doors of opportunity and prosperity it elevates your mind and your income allowing you to use your brain instead of your brawn and enjoy the benefits of time and selfimprovement",1
+"being alone helps you find you",1
+"put into the world the beauty of being yourself and the healthy energy you bring",1
+"todays work is the key to tomorrows happiness yesterdays regret is the lock to todays potential",1
+"personal growth happens when you transform your potential into action",1
+"we find total peace when we accept that due to our karma we deserve the good and the bad that is happening in our lives",1
+"walk the walk that you guarantee about it in order to be bold",1
+"healthy food that you feed your spirit mind and body keep you long enough to reach your destination",1
+"every thick woman say yes on solid and balance shoes sole for a firm legs",1
+"i see you wondering how to take good care of your feet walk the journey that youll never regret",1
+"continue on doing pedicures detox and treatment as you see it on my blogs out there dont forget to do manicures on your short hands nails as well that will be extremely gorgeous",1
+"once i was flying as usualsome people called me illi too for a while believed themthen i sawtheir sophisticated cage",1
+"the masterpiecehead down she obeysher mind a virgin canvasworld paints its own strokes",1
+"milos way a haikustrength sought in small stepslike milos calf on shouldersgrow with steady will",1
+"black sheep  a haikumidst a starlit dancethe moon emerges alonethus she steals the show",1
+"wellbeing is a skill that we can develop with practice preferably done in the morning to maximize effect throughout the day",1
+"small acts of kindness and love rippled out and had more of an impact than they ever could have imagined",1
+"thank you for believing that all humans have intrinsic value and that our job has society is to ensure that all are empowered and have enough",1
+"can we measure love or connection or beauty or the feeling of being alive",1
+"but there is value in telling a story from the perspective of the mundane from the real perspective that many of us are in for most of our lives",1
+"they say when you put language to something it creates meaning language creates the ability for someone to communicate and explore an idea more fully in a way that is not possible without language",1
+"enoughness isnt necessarily about getting rich its about the idea that god provides for our needs and it is our responsibility to share with those who dont have enough any abundance god has blessed us with",1
+"external failure has no real correlation to spiritual failure for a spiritual entrepreneur external failure is often essential for spiritual success",1
+"understanding who we are how god created us how we grow and how we give those gifts back to others is core work of the spiritual entrepreneur",1
+"there are as many unique paths to selfknowledge as there are souls in the universe therefore onesized advice can never fit all one path cannot be judged by another path and we must struggle to find our own way with god",1
+"it is my hope that entrepreneurship can become a spiritual path for many who feel called but dont believe they were worthy or havent been able to find the capital to make it happen",1
+"the collective action of spiritual entrepreneurs and their allies can contribute to creating a world that feels like heaven on earth",1
+"a onesizefitsall approach is no longer an option for humanity the world is too diverse vast and expansive so we should expect spiritual entrepreneurship to come in all shapes and sizes",1
+"inherent in this new type of distribution of wealth is trust that providing more freedom to humans ultimately drives positive innovation and growth",1
+"the rise of spiritual entrepreneurship will bring massive innovation to solving the worlds most pressing problems in unique ways",1
+"freedom is essential for any system to work and love is the foundation for freedom",1
+"hello read and buy this book is always ready to contribute a great impact in your life",1
+"sustainable living is the key to unlocking a harmonious coexistence between humanity and the environment",1
+"the choices we make today will either haunt or empower the future let wisdom guide our actions for the sake of our planet",1
+"every small step we take towards environmental conservation paves the way for a brighter greener tomorrow",1
+"the clock is ticking urging us to unite and work hand in hand to safeguard our environment and secure a flourishing future",1
+"a sustainable future is not an option it is an imperative if we wish to inherit a world worth living in",1
+"the battle for a greener future begins within each individual through conscious choices made daily",1
+"nature offers us a limitless source of inspiration and resources it is our duty to protect and preserve them for the generations to come",1
+"let us strive to be the changemakers who steer our planet towards a sustainable future where both humanity and nature thrive",1
+"rather than seeing each departure as permanent goodbyes treat them as natural farewells",1
+"one special gift that is often overlooked is the spirit of persistence",1
+"dont be one of those people who hates their life but doesnt have the courage to change it",1
+"the winds of change whisper that tomorrow holds wonders we cannot yet conceive",1
+"history flows through us we need only gaze inward to glimpse the futures unwritten pages",1
+"the future is a feast prepared from the fruits of todays labor",1
+"each sunrise offers a new canvas blank and brimming with potential",1
+"every inventive dream conjured today illuminates the possible pathways of tomorrow",1
+"strong people are the ones who can smile for others happiness",1
+"the support of others can get you to the top but you still you have to develop your strength by growing your own roots so that you can keep yourself there even when they stop watering you",1
+"the support of others can get you to the top but you still have to develop your strength by growing your own roots so that you can keep yourself there even when they stop watering you",1
+"we have every opportunity to lead our lives beyond mediocrity when infused by a greater purpose than our ownpersistpersistpersistwith the greatest good at heart",1
+"regardless of the details of your story your time bank is growing smaller every day you are the manufacturer you have the power to set the tone and control the factory floor",1
+"brahma yoga enables me to incorporate habits into my own personalized ritual and through reflection empowers me to enrich my life",1
+"i have great willpower as i know the sky is my mirror and my spirit is its reflection",1
+"time dances to its rhythm and as the sun sets on every life let us embrace the beauty of impermanence",1
+"always have your internal tiara on and have a queendom mindset your castle which is your mind body and soul is a no negativity zone",1
+"propose not oppose input not dispute your leadership vocabulary on makes a difference",1
+"in a world full of distractions pause and feel the world around youthe gentle rhythm of raindrops the laughter of children and the pulse of humanitys collective heartbeat",1
+"live authentically think deeply have confidence in your abilities and stay laserfocused on finding clarity thats the secret recipe for longlasting success",1
+"consistency is the secret sauce  taking small sometimes messy steps paves the way for bigger achievements in the long run",1
+"take aligned actions that echo your core values igniting a spark that inspires others to do the same",1
+"achieving sustainable success isnt just about working hard its about working smart too highperformance habits can really make a difference",1
+"practice selfcare to maintain high levels of energy  motivation throughout the day",1
+"tap into the power of time clarity just set a timer track your progress and see firsthand how you can achieve greatness in short bursts of productivity",1
+"to achieve longlasting success you need a resilient mindset and an unstoppable spirit",1
+"dont forget to have fun remember taking breaks and enjoying yourself will help increase your ability to stay resilient",1
+"journaling is a great way to process any emotions that come up during challenging times  it can also help boost resilience",1
+"success takes action it is not enough to simply dream let your every step ignite the spark that ignites change as actions speak louder than words",1
+"dont wait for someone else to make it happen  own your own destiny by becoming a leader in your own life",1
+"you are capable of achieving anything just focus on developing yourself through personal leadership for longlasting success",1
+"affirmations are like vitamins for your soul take your dose every morning and fuel your spirit",1
+"please remember when you are so afraid to run that even your fluffy ears and tail are shaking that is exactly the moment you must do it otherwise you will be left on the starting line all the time",1
+"just being on the right track isnt enough to guarantee success you must keep moving forward and taking action or youll get left behind",1
+"clarity gives you the courage to pursue your dreams and the power to make them a reality  now is the time to get clear on what you want",1
+"it takes courage to break unhealthy habits and replace them with healthier ones  stick to it and keep moving forward with determination",1
+"leadership is an ongoing journey  have courage stay humble and always strive to be the best version of yourself",1
+"trust in your abilities and dont be afraid to take bold steps forward towards the life you envision with every step you take youll discover a new level of strength and resilience within yourself",1
+"one small act of influence can have a ripple effect beyond what could ever have been imagined  use its power wisely",1
+"your courage will lead you to places where your comfort zone cannot take you",1
+"focus beyond the finish line  celebrate incremental progress along the way for sustained motivation",1
+"small wins lead to a big mindset shift  from i cant to i can celebrate them all",1
+"dont wait for opportunities to come knocking on your door create your own and make things happen",1
+"leadership is not just about achieving success for yourself its about helping others achieve success as well",1
+"make time to reflect on the impact that your habits have on yourself and others then adjust accordingly when needed",1
+"have the courage to take risks because if you dont youll never know what lies beyond your comfort zone",1
+"your past does not define your future learn from your mistakes let go of what no longer serves you and create a brighter tomorrow",1
+"keep your vision clear stay committed to your beliefs and always lead with integrity the rest will fall into place",1
+"true leadership is not about commanding authority its about earning respect",1
+"integrity must always be seen in action and never in question",1
+"consistency not gurus discipline not motivation action not information is the key",1
+"not giving up is like continuous practice  you get better in the end",1
+"for you to be propelled to greater heights in life there are some things you dont learn in school like learning not to quit",1
+"if you want to learn about patriarchal families you dont ask the father you ask the mother then maybe you will learn something",1
+"unlocking success embracing consistency and productivity for a fulfilling life",1
+"greatest motivation is selfmotivation",1
+"how can we become writers if we do not believe ourselves first of all that we can write and that the qualities of a writer can flourish in us",1
+"tap into the boundless power of your core values ignite purposedriven actions and unlock limitless success",1
+"align your ambitions with purpose chase goals that ignite your motivation drive and satisfaction let your journey be nothing short of amazing",1
+"embrace the power of true north decisions say goodbye to impulsiveness fuel your journey with purpose and let every choice be a stepping stone to an empowered path of growth and success",1
+"the great lie of youth that it will last",1
+"the young never fully appreciate what they mean to the old until they are old",1
+"you may treat the past and future as realities but they are only realities in your memory and imagination only the present exists",1
+"with each passing moment an infinity of potentialities become just one reality your life narrowing with each tick of the clock",1
+"time lifes inexorable weapon of humiliation",1
+"life is hard because it cannot last because it must not last its very definition is that which lies tenuously between nonexistence and nonexistence",1
+"you exist to be cared for only to a point and with a purpose that one day you might care for others",1
+"all fame is is being known by people you dont know and whats so great about that",1
+"no one appreciates anonymity as much as those who have lost it and you only get to lose it once",1
+"why do we so desire fame because we desire to matter",1
+"wealth and fame may be consequences of success but they are not success itself you want to be great great why",1
+"whatever you find yourself doing at any moment is the most important thing in the world to you at that moment",1
+"easy things do not call us to great action because they are too easy to require great action",1
+"dont fear high expectations embrace them choose to do hard things",1
+"learn to mock your influence on the world or wait for the world to do it for you you wont have to wait long",1
+"sit around too long thinking about how to begin and youll consume all your provisions while your ship rots in the harbor",1
+"why leave the comfort of the harbor because you are a ship captain and a ship captain sails",1
+"to be called is to be drawn by something outside yourself something bigger than yourself",1
+"you may not have the power to do anything or everything you would like but you do have the power to do something",1
+"you cant conjure up moments of clarity at will but you can make a habit of quieting yourself and giving them the opportunity to occur",1
+"an essential part of figuring out who you are is taking your eyes off yourself and seeing everything that is not you",1
+"forget yourself and you may just find what you were made to be and do",1
+"a lazy man often lacks the motivation to fight the very thing that has sapped him of his motivation",1
+"a man long enough sedated may no longer even realize hes being sedated or want to",1
+"entertainment is often just a cheap way to quench our natural thirst for meaning by encouraging us to exercise passivity when we ought to act with passion",1
+"meaning is not found in passivity you must track it down with fervent pursuit and fierce endurance meaning must be earned",1
+"it always works when you know what youre doing",1
+"ive realized that you might have big waves and you may have small waves but it never matters because the waves always break and what if they dont that just means that you must keep swimming until your wave appears",1
+"your legacy is not simply a matter of what you do but a matter of who you do it for",1
+"it is no great accomplishment to take care of yourselfive known children of ten or twelve who can do that to become a true adult you must become more than independent you must become dependable",1
+"you are not truly yourself until you no longer define yourself in others terms",1
+"courage is simply the commitment to do the right thing even when it is difficult",1
+"if you believe that the show youremaking will improve the world theres nothing saying that your goals andselfinterests and someone elses goals and interests have to be mutuallyexclusive they can align",1
+"fear gets feverish attain such heighthaters go blind burn so brightcourage isnt absence of fearcourage is to overcome fearbirds get jealous fly to such heights",1
+"time is a slimy wimy thinglife is a blessy messy thinglove is a happy crappy thingmind is a mighty fighty thing",1
+"be your own armorbe your motivatoryour are the tideof impossible lightyou are your carburetor",1
+"ill find out the truth leta whispered into the black i promise mother",1
+"i only cry once when i get hurt by the same thing at first",1
+"enemies arent a drawback to the one who takes notes from them",1
+"if you wish to leave a legacy the things you do cannot matter only to you",1
+"a legacy by definition must matter to others because a legacy is something you leave behindyou wont be here anymore to think its important",1
+"when the storm rages in the dark night a voice on the wind will ask who are you and the quality and depth of your answer will determine whether you stand firm or flounder",1
+"anxiety and depression are your friends they tell you there is something undone that must be done something you must do they demand action",1
+"when you dont know who you are do something something that seems worth doing and keep doing that until you figure out who you are or at least who you would like to be",1
+"life is amply confusing on its own dont create confusion where it doesnt exist you dont get to make the world whatever you wish it to be you dont get to make yourself whatever you wish to be",1
+"not everything put into you is good or right but it is good enough and it is all important",1
+"learn to recognize useless guides without getting sanctimonious about it there are good reasons there are bad adults be thankful you are ignorant of a great many of them",1
+"once you know who you are you need not fear being misunderstood or isolated or bullied you wont care whether others respect you because you know who you are",1
+"life is a risk life is also punctuated by moments of great risk and your identity and legacy are shaped by how you respond in those critical moments",1
+"failing to recognize moments of great risk is like dancing in the dark you may be on solid ground or you may be twirling at the verge of a precipiceyou dont know",1
+"your moments of great risk are not yours alone the decisions you make in those moments are of great import to a great many peoplepeople of great import to you",1
+"you are not special but you are unique",1
+"an honest life starts with an honest assessment of self you are neither worthless nor preeminent but somewhere in between",1
+"success and failure are derived not from anything you possess but rather by the things you do your successes and failures rest on your actions and your actions alone",1
+"there is never the potential for success without a corresponding potential for failure",1
+"you should neither attempt to justify a bad risk because it turned out well nor regret too much a good risk that turned out badly",1
+"perhaps the only thing we might legitimately lament in an old mans death would be his failure to have used his time well",1
+"successful people dont let fear paralyze them they feel it acknowledge it and use it as motivation to keep pushing forward",1
+"change your perspective on influence  it is a tool that can be used to build meaningful relationships move conversations in new directions and bring out the best in people",1
+"success begins with action  turn your thoughts into reality and make your dreams come true by putting plans into motion",1
+"invest in yourself and make progress  use small steps to move towards bigger goals",1
+"actionoriented thinking leads to lasting change  set yourself up for success by committing to executing your plans with purpose",1
+"the power of influence lies within each person allowing them to build something beautiful and impactful when harnessed correctly",1
+"confidence isnt a destination  its a journey and you have the power to decide which path to take",1
+"taking care of your mental health empowers you to take on any challenge that comes your way  no matter how unexpected",1
+"it only takes one step towards a dream for possibilities to open up  stay focused on that goal no matter what gets in your way",1
+"find your flow trust in yourself and let your passion guide you towards the life youve always dreamed of",1
+"were all on our own journey so never forget to love yourself enough and make every moment count",1
+"own your power take action toward your goals and watch them become a reality",1
+"feeling overwhelmed take action by breaking tasks into manageable steps you can conquer overwhelm and achieve your goals",1
+"dont underestimate the power of seemingly insignificant wins  they have the potential to shift everything",1
+"the path to success is paved with hard work persistence and a willingness to take action",1
+"productivity is about focusing on what truly matters and taking inspired action toward your definition of success",1
+"remember to prioritize selfcare and rest as they are essential components of success by taking time to refuel youll be able to perform better and reach your goals faster",1
+"embrace your desires and strive for greatness but do so with grace and ease be kind to yourself and understand that setbacks are a natural part of any journey",1
+"dream big act bigger  dont let challenges or failures stop you from realizing your ambitions",1
+"one small act of influence can have a ripple effect beyond what could ever have been imagined  use its power wisely",1
+"focus beyond the finish line  celebrate incremental progress along the way for sustained motivation",1
+"take responsibility for your actions and strive to become even better every day  this is the key to lasting success",1
+"success belongs to those who dream big and focus on what matters most",1
+"simplify your goals focus on the top three demolish the main obstacle and stay fiercely determined",1
+"dont wait for success to find you instead identify the skills and knowledge you need to achieve your dreams pursue them relentlessly and watch as you exceed your wildest expectations",1
+"dreaming is easy hammering out concrete details is hard",1
+"limits can be great for inspiring creative solutions",1
+"find joy in the simplest of things for happiness lies in appreciating lifes small wonders",1
+"life is a precious gift dont waste it by playing small aim for greatness",1
+"the greatest failure in life is not trying at all dare to chase your dreams",1
+"adventure is calling and its time to answer with courage and enthusiasm",1
+"success is not about luck its about perseverance and relentless determination",1
+"life is too short to live in fear take risks embrace change and live fully",1
+"dream big work hard and stay humble success will follow",1
+"be curious be adventurous and never stop exploring the world around you",1
+"surround yourself with positive influences and watch your life transform",1
+"success is not about reaching the top its about lifting others up along the way",1
+"life is too precious to be spent dwelling on the past live in the present and create a brighter future",1
+"adversity reveals our true strength and resilience embrace it as a catalyst for growth",1
+"success is not guaranteed but neither is failure take a chance and see where it leads you",1
+"success is not about being better than others its about being the best version of yourself",1
+"embrace uncertainty for it is the gateway to growth and transformation",1
+"life is a canvas paint it with colors that bring you joy",1
+"live your life as if every day is an adventure",1
+"the best way to predict your future is to create it with passion and purpose",1
+"success is not about the destination its about the person you become along the way",1
+"life is like a camera focus on whats important and capture the good times",1
+"success is not about the applause its about how you feel about yourself",1
+"adventure awaits those who seek it with an open heart",1
+"success is not an overnight phenomenon its the result of consistent effort over time",1
+"failure is not the end its a stepping stone towards success",1
+"each month brings its own sacred mercies",1
+"the only person you are destined to become is the person you decide to be",1
+"live life on your terms make decisions based on facts and not on opinions and blaze your own path",1
+"life can feel unpredictable and overwhelming but staying mindful can put you in the drivers seat",1
+"remember the darkest nights produce the brightest stars embrace your struggle and let your light shine",1
+"challenges are not roadblocks they are stepping stones on the path to greatness",1
+"struggle breeds resilience and resilience paves the way for triumph",1
+"a diamond shines brightest after enduring immense pressure",1
+"within every struggle lies an opportunity for growth and selfdiscovery",1
+"the struggle is not a sign of weakness but a testament to your determination",1
+"embrace the struggle for it molds you into the person you are meant to be",1
+"when faced with adversity remember that stars shine brightest in the darkest skies",1
+"the struggle may be tough but so are you keep pushing forward",1
+"the struggle is the catalyst for change and the birthplace of innovation",1
+"strength grows in the moments when you think you cant go on but you keep going anyway",1
+"greatness is not achieved without conquering the battles that come your way",1
+"the struggle is the canvas upon which our character is painted",1
+"if you take on a challenge and really commit to it youll find that its not just about that one thing  it will create new habits skills and behaviors that can be applied in other parts of your life",1
+"the first mistake is an opportunity to learn but if you dont use that experience to make a better decision next time then thats not an innocent mistake  its negligence",1
+"if you dont want to sink then its time to cut the negative anchors loose and start swimming",1
+"burnout is real if you want success without the hustle and grind plan for breaks and set boundaries for yourself",1
+"when youre in love theres no need to understand whats going on because everything happens inside of you",1
+"unfortunately people are erecting massive barriers around themselves rather than erecting beautiful bridges to connect",1
+"life is all about making those brave and necessary shifts so take a deep breath and trust yourself to make that leap of faith",1
+"sustainable success isnt measured by how hard you work but rather by how much time you take to relax and recharge",1
+"dont be fooled into thinking that pushing yourself all the time equals progress  taking a break every now and then is just as important if not more so",1
+"believe in yourself and be brave enough to take risks and youll find that life is full of endless possibilities",1
+"forget the boundaries that have been placed around you or the beliefs youve been told are true and start believing in your own limitless potential",1
+"its time to change our perspectives and unleash our inner strength it starts by recognizing how capable you really are",1
+"dont be held back by insecurity or fear because you never know what might be on the other side of that leap of faith",1
+"when it comes to life if you believe in yourself and take bold risks the possibilities are practically infinite",1
+"dare to dream bigger and unlock the power within because there are no boundaries that can hold you back",1
+"its time to put aside the limits that have been placed on you and start believing in your own strength and potential",1
+"life is too short to settle for anything less than amazing",1
+"deep silence is the souls language where words are unnecessary and the heart speaks the truth",1
+"twilight is the transition period between the end of the day and the beginning of the night a time to let go of the past and embrace the unknown",1
+"each room i enter every road i walk on it asks for me and waits to see whether or not i agreed to it did i try did i grab the moment i love these jumps and where they lead",1
+"just as clouds are constantly moving our lives are constantly changing",1
+"life is for living so live already",1
+"we are born alone live alone and die alone we create the illusion of relationship love and friendship during the intermittent a maya who makes us feel like were not alone",1
+"do whatever you can to make the most of the present its the only thing you can control",1
+"meadows would bore without greenery and woods would be silent without birds and insects there would have been no thrill had the stream or brook not babbled or trickled",1
+"we often think of failure as a negative experience but it can teach us so much if we are open to learning from it",1
+"every setback is an opportunity to grow if we take the time to reflect find out what went wrong and use our experiences to move forward",1
+"its easy to compare yourself to the people around you but dont let that stop you from embracing the amazing gifts and talents you possess remember they dont have what youve got",1
+"you dont need to compare yourself to anyone else  the only person you need to be better than is the one you were yesterday so take a step back choose joy and focus on improving yourself",1
+"life is too short to spend it second guessing yourself break down those walls of limiting beliefs and get ready for amazing things ahead",1
+"stop letting selfdoubt be the energy that drives your life",1
+"believe in yourself and take on every challenge with confidence  your success is something only you can define be bold and embrace lifes opportunities trust meyou wont regret it",1
+"nobodys perfect and life is full of challenges but that doesnt mean you dont deserve love and acceptance",1
+"weve got to make a habit of doing the things that scare us and have faith in our decisions  because in the end your life really does depend on it",1
+"faith is no slave to rituals rules or even religion many a godless men attained faith many a faithless men attained god",1
+"natures serene beauty and tranquillity aid in ones search",1
+"make yourself the light in the darkness",1
+"though the physical appearance changes the soul remains constant in this way everything changes around us but nothing ever changes the essence was always the same",1
+"whenever im feeling down i always think back on all my goals and get instantly motivated",1
+"take a deep dive into nature you will see everything around you colourful",1
+"whether youre facing a challenge or celebrating the little victories in life know that nothing is more courageous than owning and loving your story",1
+"dont be afraid to take that first step and go after what you desire  because believe it or not it wants you too you deserve all the good things life has to offer so go ahead and seize them",1
+"it takes courage and strength to take a long hard look at who you are what you want out ofthis life and how to make it happen",1
+"one small shift in mindset one tiny tweak to your daily routine  these are the things that can end up driving your future",1
+"sometimes it can feel like success comes in leaps and bounds but the truth is that small shifts and tweaks are the things that will bring you closer to your desired future",1
+"selfcare isnt just about taking care of your body  its about tending to your mental health too and thats something all of us could use a little more of",1
+"stop surrounding yourself with all the negative energy that does nothing but drag you down",1
+"ive made plenty of mistakes in my day but one thing ive learned is that you never have to make the same mistake twice",1
+"dont let anyones opinion of you define who you can be life is too short to worry about what other people think its your life so own it",1
+"look deep within you will find everything you seek",1
+"solitude is the choice to be alone for selfreflection and happiness",1
+"you have to find power in everything negative in your life",1
+"true leaders have an unwavering commitment to their mission no matter how insurmountable the odds may seem they are selfless and determined and they understand that through perseverance nothing is impossible",1
+"great leaders dont just establish a following they create an army of leaders who are empowered to think for themselves and become their own heroes",1
+"if you want to have longterm success as a coach or in any role of leadership having an obsession with your craft is essential it isnt enough to be knowledgeable about what you do  you have to be hungry for improvement",1
+"fear can keep us stuck in our comfort zone but courage can open us up to tremendous possibilities and growth the choice is yours",1
+"knowledge is great  its the foundation for success  but knowledge alone wont get you far its the hunger and passion for improvement that will take you to the next level and stay there longterm",1
+"start celebrating other peoples wins and keep striving for your own life isnt a competition so focus on your journey and appreciate the successes of those around you",1
+"life is all about making decisions but its not the decisions we make that shape our lives  its our habits habits are the daily actions that give us direction and eventually decide where we end up so choose your habits wisely",1
+"leadership often requires learning and learning requires leadership its not a coincidence that these two concepts are intertwined  without one you cant have the other",1
+"there is no shortcut to success  it takes hard work and dedication but with perseverance you can become a leader who draws in quality people",1
+"courage doesnt mean feeling no fear it means having the strength to carry on despite it when you face your fears you gain control of your life dont be afraid to take the first step and show the world what youve got",1
+"dont let anyone tell you otherwise your potential is limitless stop doubting your potential work hard take small steps and make your dreams a reality",1
+"if you want to have longterm success as a coach or in any role of leadership having an obsession with your craft is essential",1
+"life is full of unexpected turns and challenges but dont let that stop you from becoming who you are truly meant to be push through any doubts or fears and unlock your hidden potential",1
+"fear can be a powerful emotion and its easy to let it direct your decisions but no matter what you choose remember that you are always in control of your destiny dont be afraid to be bold and brave  life is whatever you make it",1
+"life isnt about getting the perfect hand of cards  its about taking the cards youre dealt and making the most of them",1
+"leadership is not about having the most power or authority its about having the courage and drive to turn ideas into action",1
+"leadership is not about having the most power or authority its about having the courage and drive to turn ideas into action",1
+"take risks make bold decisions and enjoy the journey of leaving your own unique mark in this world",1
+"dont let anything stop you from exploring what lies ahead and making a lasting impact that none of us could have predicted",1
+"when it comes to success its not just what you do and how hard you work  its also about taking care of yourself",1
+"real courage lies in being able to believe in yourself enough to try again tomorrow even after a tough day",1
+"identifying your core values and goals is an incredibly important step on the road to achieving success",1
+"people who try to bring you down are only trying to suppress your potential from showing itself because they know if it does then youll be able to achieve great things and leave them in the dust",1
+"stress is like a storm quietly building if i can remain calm i quiet the storm",1
+"take a moment breathe slow down let go experience the calm",1
+"when i calm my mind i experience the greatest joy of all",1
+"gratitude and service are the best way to a happy and joyful life",1
+"people say dont worry about the small stuff determining if your biggest worry is small stuff is a skill letting go of small stuff is a gift",1
+"finding inner peace should be your highest goal and determining steps to reach it should be your highest priority",1
+"every moment is a gift the only moment you know for sure is the present moment",1
+"strength is found in the calmness of not reacting instantly taking a moment and thinking calmly will bring clarity",1
+"thoughts can be like a rough sea turbulent out of control with low visibility however everything becomes clear when the sea is calm including your thoughts",1
+"the ultimate pleasure is found in the calmness of the mind",1
+"nature is beautiful because it is simple",1
+"my highest achievement in life will be inner peace",1
+"living in the present and letting go of thoughts that no longer serve me allow me to relax unwind and experience peace",1
+"imagine all the stress in your life having wings and can simply fly away in the wind",1
+"by becoming my best friend and being comfortable in the quiet i can retreat any time into my personal sanctuary",1
+"powerful breathing exercises help me realize good things will happen",1
+"remaining calm in stressful situations gives you time to assess the situation later when you are calmer",1
+"there is nothing more beautiful than a blue sky and fresh air be one with the sky",1
+"the most beautiful things i see are when my mind is the calmest",1
+"that you're going to do that again they're incredibly high you're going to so that's where to someone who's not inclined to do a lot of hard training",0
+"the answers to your most pressing questions will arrive in your mind by being still in the moment and relaxing",1
+"the best defense against stress is a calm mind",1
+"the best way to receive abundance is to believe abundance is already present",1
+"do not think these days are particularly numbered in the sense that there really is not a question but I'm going to work out today and tomorrow and the next day and the next day and the day after that",0
+"natures secrets are simplicity and patience",1
+"positive people like you all who spread positive energy achieve success in life i have trained more than 10000 students by now in my teaching experience of 12 years and i can tell this with conviction",1
+"em vez de pensarmos na famlia como algo que existe temos de pensar nela como algo que se constri ns fazemos a famlia",1
+"treasure good health give thanks to god",1
+"its better to wake up than fall back asleep in a town with no dreams",1
+"dont pass judgement on how humans communicate with the supreme because everyone has their way of doing things",1
+"walking alone through nature can be meditative",1
+"life is beautiful cherish every moment appreciate what you have and find joy in the present",1
+"everything around you will change when you change yourself into the person you want to be",1
+"letting go of thoughts that no longer serve you will increase your inner peace",1
+"expressing gratitude is a small action that when practiced every day will allow inner peace to unfold exponentially",1
+"simply go outside and have fun the most abundant source of happiness is nature",1
+"victory sits perched upon peaks of obstacles confronting us we should never give up",1
+"and the 100 days after that being Beyond and part of that is just the fact that I love working out it's fun for me but also it's kind of a pattern thing you know if you wake up every day you go about your day like normal and then you come home the odds",0
+"for somebody like me weightlifting but it could be anything you know whatever your is to go from basically no activity like that to a day of really solid badass exertion it can feel like a",0
+"your understanding of life will deepen as you spend more time in nature",1
+"the brisk wind flowing river rocky mountains dense forest and blue sky all contribute to my deep understanding of life",1
+"nature teaches us to be compassionate kind and nondiscriminatory",1
+"a subtle kind of murder happenswhen parents dont allow their childrento be the people theyre meant to belove means letting your child just live free",1
+"when you are in the presence of the beauty of nature nothing but happiness can overtake you",1
+" perspective is everythingthat is when you can break apart something or look at it from a new angle it loses its power over you",1
+"if you look at nature closely you will notice miracles all around you",1
+"regrettably we believe we own the earth the trees the mountains flowing rivers and many other things but we are all owned by nature",1
+"every time i admire nature i wish i could just disappear into it",1
+"throw yourself into natures arms when youre completely lost in the dark it will reveal a new glimmer of hope",1
+"so you have to kind of train your mind in a way and definitely learn to police your own thoughts",1
+"im not exaggerating when I say you got to kind of toughen up your own mind you know because if one of your buddies really pushes himself on legs and he's going to take you with him for a leg day if you're the type of guy to be like I don't want to do that oh it's going to be hard oh my goodness even if you still do it to have already had that mindset and that mentality",1
+"music is all around you all you have to do is listen to it",1
+"[Music] back again back again can you believe it another day of a Sam workout guess what out of all things I",0
+"natures secret is simplicity and patience",1
+"one can discover true bliss in natures stillness",1
+"even if you still have that mindset and that mentality and that sort of uh those thoughts really pop up in your head and you keep replaying the whole time you're just not going to have a good workout you know",1
+"outside influences cannot bring the peace you crave you must find peace from within",1
+"i would take one minute of peace of mind instead of the best dessert on earth",1
+"by smiling you automatically feel peace",1
+"[Music]",0
+"positive emotions are created with peaceful thoughts",1
+"sometimes it is because we are chosen that we are rejected",1
+"regular practice consistency and selfconfidence can only help you becoming a great player",1
+"there is no limit to what one can ask of ones adolescent self",1
+"the law of karma states that neither a drop of kindness nor a speck of evil will go unreturned",1
+"you are pretty now but if you dont learn to love yourself even if you are pretty you are not truly considered beautiful",1
+"honestly ive wanted to give up a lot of times but i worked hard i believed i would succeed if i worked hard",1
+"accept situations without hesitation and allow things to flow naturally in whatever direction they want",1
+"through everything and every atma soul in this universe you can see paramatma supreme",1
+"hell and heaven exist in the present moment stop worrying about heaven because they are both present right now",1
+"dont be depressed about a misfortune because it could be a fortune",1
+"its never too late to ask yourself am i willing to change from within",1
+"intellect tangles and knots people but love and compassion dissolve all tangles",1
+"its absolutely ok to make poor choices no one knows the world completely to come out with better results is real responsibility",1
+"nothing hurls an individual towards their goals faster than the sting of defeat thats when all the probing postmortem questions get asked victory is the fluffing up and reinforcing of the existing ego",1
+"using less time to produce more is intelligent then why do intelligent people choose to multitask",1
+"if multitasking is the solution for doing more in less time then the human race is moving towards a time when we will attempt to finish items on our todo list while we sleep",1
+"one who seeks a perfect friend will find none",1
+"he was given too much agency in a fallen world",1
+"man who is deeply in love with nature never ages",1
+"true comfort cannot be bought with fame and luxury it must be earned through personal growth and selfacceptance",1
+"what youre good at is important for sure but what you love is the greatest motivator you have",1
+"why cant i change why you yell to the heavens momentarily forgetting that you are not the leading character in a silent film being tied ceremoniously to a train track by a scurrilous villain with a handlebar mustache",1
+"once a habit is formed we cant forget that response completely but we can interrupt and replace it with something else",1
+"microsized habit changes make problems more manageable and goals more attainable you can do this anytime anywhere for the low low cost of totally free there are no barriers to entry",1
+"happiness and sufferings coexist on the wheel of life",1
+"the smile on a childs face is the most priceless thing in the world never let the child inside of you die and make sure to look after it whenever it needs something you would improve everything if you had a kinder heart happy childrens day",1
+"anyone who does not comprehend your silence is unlikely to comprehend what you say or think",1
+"you are appealing because you are distinct",1
+"faith is the power that allows a perplexing world to emerge into the light",1
+"greed is the source of all suffering and pain",1
+"and if you want it its all yours",1
+"you can initiate a phase of death and rebirth at any time you dont have to sit idle and wait for an outside force to make that happen for you choose to end things this will always spark an opportunity for a new beginning",1
+"a healthy dose of pain and discomfort is required to balance out all the highs of live embrace the challenge",1
+"there are two types of individuals those who crumble under pressure and those who thrive when subjected to extreme situations",1
+"we must peel away the bitterness of life from time to time in order to reveal the richer aspects of life",1
+"not all soldiers wield spears",1
+"your greatest successes in life will often come from assisting others in their endeavours",1
+"as god moves us into a new year normalize doing your own thing regardless of what anyone says or thinks mind your business and become great at it lastly stop being accessible to everyone you will find peace within",1
+"true bliss is never experienced through the senses pancha jnanendriya but exists beyond the senses",1
+"when its inside dont search in the dark outside",1
+"life is a series of natural and unanticipated changes dont fight them instead accept them with grace",1
+"people tend to do stuff because they expect to get something out of it",1
+"im not scared of failing i simply do not know how to fly",1
+"life goes on and others replace the dead death changes nothing",1
+"if you want to be happy let go of your anger and bitterness and embrace kindness compassion faith and love",1
+"to find peace let go of your rage lust greed guilt and bitterness",1
+"it feels like salinger wrote the catcher in the rye in a day and that incredible feeling of ease inspires writing inspires the pursuit of voice not his voice my voice your voice",1
+"silence is the most effective tool for accomplishing goals",1
+"how we perceive supreme reflects how we perceive ourselves",1
+"always keep your head held high",1
+"i believe that selfdefense is essential in protecting ones wellbeing and dignity",1
+"while you exist be good",1
+"every glittering stone like every shining metal is not precious",1
+"there should be no shame in openly saying i want this there should be no shame in not knowing what one wants",1
+"when you sow a seed it will grow somehow someway it will grow",1
+"already eaten for the day cuz I mean there's no chance you're going to remember if you say to yourself like oh I'll I'll just remember how much protein I had in my head you know I okay I had 50 grams in the morning uh wait how much should I have for lunch come on and you're not going to",0
+"when you have a soul sometimes it burns",1
+"the success zone and the comfort zone are not in the same place",1
+"why are you looking outside when it is already inside you",1
+"something to be um this is something to be argued for sure not saying this is the actual perfect approach but even bulking I still do my 30 minutes of cardio on the bike in the morning followed by the workout in the evening because same",0
+"when you earn your worth you learn your worth this is why learning is a never ending process",1
+"there are a thousand different ways to get home just dance and celebrate until you dissolve into one",1
+"according to the wheel of life everything is subject to change and extinction",1
+"pretty winded after like a set of um you know crazy heavy squats I'm definitely sitting there huffing and puffing before I can get my heart rate back down to Baseline and and do another set so having a reasonably healthy cardio system or not even healthy but let's",0
+"eternal light is something that has always existed the amount of light you receive will depend on your actions",1
+"as one thinks about the objects of the senses one becomes attached to them attachment comes before desire and desire comes before anger",1
+"whenever we reach an unexpected barrier in the way of honoring our souls truth through action it is essential to dust ourselves off and keep flying toward our dreams",1
+"when one becomes selfaware all mental delusions fade away like darkness in the sky banished by the movement of the sun",1
+"the world which is like a mountain echoes your words back to you be in love no matter where you are or what you do",1
+"understanding others is a sign of intelligence understanding oneself is a sign of true wisdom controlling others is a sign of strength but mastering oneself is a sign of true power",1
+"if you're already in the gym you should try your damnest to make yourself as excited about it as possible because for one thing that's going to give you a better workout on that day and that's setting yourself up to actually be able to keep doing it day after after day after day",0
+"one who is too relentless to listen to other peoples views finds very few people who agree with him",1
+"behind what you're doing when I'm in the gym and I see guys or I'm talking to whoever uh it's not super often but there are a few guys that I've uh I've seen in my gyms before where they have absolutely nothing to talk about except",0
+"we are in charge of our destiny and we control our future by how we think and act",1
+"the greatest feeling in the world to me is triumph",1
+"facts didnt matter to people if they were smiling",1
+"love and kindness serve as a bridge between you and all living things",1
+"the mind is everything in this world it is the source of all pain and suffering if the mind can be healed it will cure all illnesses in this world",1
+"im not afraid of strong winds because im learning to fly",1
+"for complaints oh dude I'm dying today man I'm so tired verbatim he's going yeah I don't want to be here right now so then why are you here right",0
+"just celebrate and dance life is a moment we are living right now",1
+"faith isnt blind belief its unwavering trust",1
+"the human brain is capable of doing more than just thinking about earning bread and butter live your life to the fullest so that you wont regret it in future travel explore learn create and help",1
+"the most contented man is one who has control over his desires",1

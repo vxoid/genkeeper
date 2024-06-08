@@ -1,28 +1,40 @@
 import { fail, type RequestEvent } from '@sveltejs/kit';
-import { isYoutubeVideoLink } from './validator';
+import { YoutubeLink, ParseError, APIError } from './link';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
 	import: async (event: RequestEvent) => {
-    const data = await event.request.formData();
-    const link = data.get("link");
+    try {
+      const data = await event.request.formData();
+      const link = data.get("link");
+    
+      if (!link) {
+        return fail(400, {
+          error: true,
+          message: "no link passed.",
+        });
+      }
   
-    if (!link) {
-      return fail(400, {
+      const stringLink = link.toString();
+      
+      const youtubeLink = YoutubeLink.parseLink(stringLink);
+      if (youtubeLink instanceof ParseError) {
+        return fail(400, {
+          error: true,
+          message: youtubeLink.msg,
+        });
+      }
+  
+      const subtitles = await youtubeLink.fetchCaptions();
+      const sorted_subtitles = await subtitles.filterAI();
+      
+      
+      return { error: false, videos: [] };
+    } catch (error) {
+      return fail(500, {
         error: true,
-        message: "there was no link passed.",
+        message: "unknown internal error",
       });
     }
-
-    const stringLink = link.toString();
-
-    if (!isYoutubeVideoLink(stringLink)) {
-      return fail(400, {
-        error: true,
-        message: `cannot parse ${stringLink} as a valid youtube link.`,
-      });
-    }
-
-    return { error: false, videos: [] };
   }
 };

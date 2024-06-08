@@ -84,7 +84,9 @@ p {
 }
 
 .page {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
   min-width: 200px;
   max-width: 700px;
 }

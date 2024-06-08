@@ -2,15 +2,12 @@
 	<title>Home</title>
 </svelte:head>
 
-<div class="home">
+<div class="">
   <p class="details">idk some yappin</p>
   <a class="pagelink" href="/import">Get Motivation From Video!</a>
 </div>
 
 <style>
-  .home {
-    text-align: center;
-  }
   .details {
     color: var(--side-text-color)
   }

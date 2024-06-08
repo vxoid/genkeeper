@@ -4,7 +4,7 @@
   const vxoid = { name: "VXOID", link: "https://www.instagram.com/vxoid.lostmyself/" }
 </script>
 
-<div class="footer page">
+<div class="footer">
   <h3 class="liner">Credits</h3>
   <div>
     <div class="credits">

@@ -19,6 +19,8 @@ class GenKeeper:
     self.device = get_device()
     self.dataset = Dataset(dataset, device=self.device)
     self.path = path
+    self.criterion = torch.nn.BCEWithLogitsLoss().to(self.device)
+
 
     self._train_or_load()
     
@@ -34,10 +36,9 @@ class GenKeeper:
     train_loader = data.DataLoader(train, batch_size=BATCH_SIZE, shuffle=True)
     val_loader = data.DataLoader(val, batch_size=BATCH_SIZE, shuffle=False)
 
-    criterion = torch.nn.BCEWithLogitsLoss().to(self.device)
     optimizer = torch.optim.Adam(self.model.parameters(), lr=0.001)
 
-    self.model.train_model(train_loader, val_loader, criterion, optimizer, EPOCHS)
+    self.model.train_model(train_loader, val_loader, self.criterion, optimizer, EPOCHS)
     self.model.save(self.path)
 
     return self
@@ -47,6 +48,14 @@ class GenKeeper:
     with torch.no_grad():
       text_tensor = self.dataset.text_to_sequence(text).unsqueeze(0)
       output = self.model(text_tensor)
-      probability = torch.sigmoid(output).item()
       prediction = torch.round(torch.sigmoid(output)).item()
       return True if prediction else False
+    
+  def evaluate(self, text: str, result: bool) -> float:
+    self.model.eval()
+    with torch.no_grad():
+      label = torch.tensor(1 if result else 0, dtype=torch.float32).to(self.device)
+      text_tensor = self.dataset.text_to_sequence(text).unsqueeze(0)
+      output = self.model(text_tensor)
+      loss = self.criterion(output.squeeze(), label)
+      return loss.item()

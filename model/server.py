@@ -16,6 +16,16 @@ genkeeper = GenKeeper(MODEL, DATASET)
 async def get_prediction_endpoint(query: str = ""):  
   return get_prediction(query)
 
+@app.post("/v1/evaluate/{query}")
+async def post_evaluate_endpoint(query: str = "", result: bool = True):
+  return post_evaluate(query, result)
+
+def post_evaluate(query: str, value: bool):
+  try:
+    return { "loss": genkeeper.evaluate(query, value) }
+  except Exception as e:
+    create_error(e)
+
 def get_prediction(query: str):
   try:
     return { "query": query, "prediction": genkeeper.predict(query) }
