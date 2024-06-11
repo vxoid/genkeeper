@@ -25,25 +25,8 @@
 
   .credits {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly
-  }
-
-  .liner {
-    font-size: medium;
-    display: flex;
-    align-items: flex-start;
-    text-align: left;
-
-    &:after {
-      content: '';
-      flex-grow: 1;
-      height: 1px;
-      background: #333333;
-      min-width: 20px;
-      margin: auto;
-      border-radius: 2px;
-      margin-left: 5px;
-    }
   }
 </style>

@@ -25,7 +25,12 @@
 		"vite": "^5.0.3",
     "axios": "1.7.2",
     "youtube-caption-extractor": "1.4.3",
-    "ytdl-core": "4.11.5"
+    "ytdl-core": "4.11.5",
+    "dotenv": "16.4.5",
+    "pocketbase": "0.21.3"
 	},
+  "dependencies": {
+    "pocketbase": "0.21.3"
+  },
 	"type": "module"
 }

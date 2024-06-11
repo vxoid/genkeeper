@@ -6,8 +6,8 @@ import os
 
 dotenv.load_dotenv()
 
-MODEL = os.getenv('MODEL')
-DATASET = os.getenv('DATASET')
+MODEL = os.getenv('AI_MODEL')
+DATASET = os.getenv('AI_DATASET')
 
 app = FastAPI()
 genkeeper = GenKeeper(MODEL, DATASET)
@@ -37,4 +37,4 @@ def create_error(e):
 
 if __name__ == "__main__":
   import uvicorn
-  uvicorn.run(app, host=os.getenv('HOST'), port=int(os.getenv('PORT')))
+  uvicorn.run(app, host=os.getenv('AI_HOST'), port=int(os.getenv('AI_PORT')))
