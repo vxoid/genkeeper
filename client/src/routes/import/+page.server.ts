@@ -1,27 +1,55 @@
 import PocketBase, { type RecordModel } from 'pocketbase';
 import { fail, type RequestEvent } from '@sveltejs/kit';
 import { YoutubeLink, ParseError } from '$lib/link';
+import { videoStorage } from '$lib/dotenv.js';
 import { PBHost } from '$lib/pocketbase.js';
+import * as path from 'path';
 
 const test_user_id = 'b34m5czzv4gz1ow';
 
-async function handleRequest(pb: PocketBase, request: RecordModel) {
-  const youtubeLink = new YoutubeLink(request.vid);
+class VideoRequest {
+  constructor (private pb: PocketBase, private request: RecordModel) {}
 
-  try {
-    const videoProcess = youtubeLink.download();
-    const subtitles = await youtubeLink.fetchCaptions();
-    const sorted_subtitles = await subtitles.filterAI();
-    const video = await videoProcess;
+  public async handle() {
+    const youtubeLink = new YoutubeLink(this.request.vid);
+  
+    try {
+      const videoProcess = youtubeLink.download().catch(async (err) => await this.fail(err));
+      const subtitles = await youtubeLink.fetchCaptions().catch(async (err) => await this.fail(err));
+      if (!subtitles)
+        return;
+      const batchedSubtitles = subtitles.batch(10);
+      const filteredSubtitles = (await batchedSubtitles.filterAI().catch(async (err) => await this.fail(err)));
+      if (!filteredSubtitles)
+        return;
+      const timecodes = filteredSubtitles.maxRandom(60);
+      const video = await videoProcess;
+      if (!video)
+        return;
+      // const fileToken = await pb.files.getToken();
+      let resultVideo = await video.chop(timecodes, path.join(videoStorage, `${this.request.id}.mp4`)).catch(async (err) => await this.fail(err));
+      if (!resultVideo)
+        return;
+      
+      video.delete();
+  
+      const formData = new FormData();
+      const resultVideoBuffer = await resultVideo.buffer().catch(async (err) => await this.fail(err));
+      if (!resultVideoBuffer)
+        return;
 
-    video.delete();
-    
-    await pb.collection('requests').update(request.id, { 
-      "status": "succeeded"
-    });
-  } catch (error) {
-    console.log(`internal err: ${error}`);
-    await pb.collection('requests').update(request.id, { 
+      formData.append("result", new Blob([resultVideoBuffer]), "idk.png");
+      formData.append("status", "succeeded");
+      
+      await this.pb.collection('requests').update(this.request.id, formData).catch(async (err) => await this.fail(err));
+  
+      resultVideo.delete();
+    } catch (err) {await this.fail(err)};
+  }
+
+  private async fail(err: unknown) {
+    console.log(`internal err: ${err}`);
+    await this.pb.collection('requests').update(this.request.id, { 
       "status": "failed",
       "message": "unknown internal error" 
     });
@@ -75,7 +103,8 @@ export const actions = {
         });
       }
 
-      handleRequest(pb, request);
+      const vidRequest = new VideoRequest(pb, request);
+      vidRequest.handle();
 
       return { error: false, request: request.id };
     } catch (error) {

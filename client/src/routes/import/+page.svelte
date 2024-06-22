@@ -69,7 +69,7 @@
         </button>
       </div>
       <div class="preqcontainer {isMenuOpen ? 'show' : ''}">
-        <PastRequests cur={ (() => { console.log("passing " + $request?.id); return $request?.id; })() }/>
+        <PastRequests cur={$request?.id}/>
       </div>
     </div>
   </div>
