@@ -64,7 +64,7 @@
 <div class="pastrequestsholder">
   <div class="pastrequests">
     {#each requests.filter((request) => request.id !== cur) as userRequest}
-      <Request id={userRequest.id} status={userRequest.status} message={userRequest.message} date={formatCreatedDate(userRequest.created)}/>
+      <Request id={userRequest.id} resultURL={pb.getFileUrl(userRequest, userRequest.result)} status={userRequest.status} message={userRequest.message} date={formatCreatedDate(userRequest.created)}/>
     {/each}
   </div>
   {#if totalPages > 1}

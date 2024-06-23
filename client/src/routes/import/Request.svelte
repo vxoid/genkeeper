@@ -1,8 +1,26 @@
 <script lang="ts">
   export let id: string;
+  export let resultURL: string;
   export let date: string = "";
   export let message: string = "";
   export let status: "processing" | "succeeded" | "failed";
+
+  async function download() {
+    let res = await fetch(resultURL, {
+      method: 'GET',
+    });
+
+    let blob = await res.blob();
+    var url = window.URL || window.webkitURL;
+    let link = url.createObjectURL(blob);
+
+    let a = document.createElement("a");
+    a.setAttribute("download", `result.mp4`);
+    a.setAttribute("href", link);
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
 </script>
 
 <div class="request {status === "processing" ? "loading" : "" }">
@@ -14,7 +32,14 @@
     {#if status === "processing"}
       <p>Processing...</p>
     {:else if status === "succeeded"}
+    <div class="succededdiv">
       <p class="succeeded">Succeeded</p>
+      <button class="downloadbutton" on:click={download}>
+        <svg class="downloadicon" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
     {:else if status === "failed"}
       <p class="failed">Failed with {message}</p> 
     {/if}
@@ -22,6 +47,21 @@
 </div>
 
 <style>
+  .downloadbutton {
+    border-radius: 3px;
+    border: none;
+    background: none;
+    color: var(--main-text-color);
+    position: relative;
+    text-decoration: none;
+    padding: 0px;
+    height: 25px;
+  }
+  .downloadicon {
+    vertical-align: middle;
+    stroke: rgb(136 136 136 / 82%);
+    fill: none;
+  }
   .loading {
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -46,13 +86,15 @@
     padding-bottom: 3px;
   }
 
-  .succeeded {
+  .succededdiv {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     text-decoration: none;
     padding-bottom: 3px;
   }
 
-  .succeeded::before {
+  .succededdiv::before {
     content: '';
     position: absolute;
     width: 100%;

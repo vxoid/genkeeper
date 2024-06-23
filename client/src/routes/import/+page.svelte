@@ -57,7 +57,7 @@
     <div class="requests">
       <div class="currequest">
         {#if $request}
-          <Request id={$request.id} status={$request.status} message={$request.message}/>
+          <Request id={$request.id} resultURL={pb.getFileUrl($request, $request.result)} status={$request.status} message={$request.message}/>
         {/if}
       </div>
       <div class="preqmenuitems">

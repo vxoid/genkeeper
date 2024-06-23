@@ -26,7 +26,7 @@ class VideoRequest {
       const video = await videoProcess;
       if (!video)
         return;
-      // const fileToken = await pb.files.getToken();
+
       let resultVideo = await video.chop(timecodes, path.join(videoStorage, `${this.request.id}.mp4`)).catch(async (err) => await this.fail(err));
       if (!resultVideo)
         return;
@@ -38,7 +38,7 @@ class VideoRequest {
       if (!resultVideoBuffer)
         return;
 
-      formData.append("result", new Blob([resultVideoBuffer]), "idk.png");
+      formData.append("result", new Blob([resultVideoBuffer]), `${this.request.id}.mp4`);
       formData.append("status", "succeeded");
       
       await this.pb.collection('requests').update(this.request.id, formData).catch(async (err) => await this.fail(err));
