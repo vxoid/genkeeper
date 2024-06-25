@@ -1,5 +1,4 @@
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, HTTPException
 from genkeeper import *
 import dotenv
 import os
