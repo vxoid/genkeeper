@@ -1,5 +1,5 @@
 <script>
-  import { pb } from '$lib/pocketbase.ts';
+  import { pb } from '$lib/pocketbase';
 	import Credits from './Credits.svelte';
   import Header from './Header.svelte';
 	import { onMount } from 'svelte';

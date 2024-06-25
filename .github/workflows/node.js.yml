@@ -27,14 +27,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Open Web Client Directory
-      working-directory: ./client/src
-      run: |
-        ls -la
-    - name: Open Web Client Directory
-      working-directory: ./client/src/lib
-      run: |
-        ls -la
     - run: npm ci
       working-directory: ./client
     - name: Build service
