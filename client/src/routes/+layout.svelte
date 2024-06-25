@@ -1,7 +1,7 @@
 <script>
+  import { pb } from '$lib/pocketbase.ts';
 	import Credits from './Credits.svelte';
   import Header from './Header.svelte';
-  import { pb } from '$lib/pocketbase';
 	import { onMount } from 'svelte';
   import './normalize.css';
 	import './styles.css';
