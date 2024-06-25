@@ -34,7 +34,7 @@
 
   async function updateRequests() {
     const fetchedRequests = await pb.collection('requests').getList(page, perPage, { 
-      filter: "owner = 'b34m5czzv4gz1ow'"
+      filter: "owner = 'v77oicktyx5f5im'"
     });
     totalPages = fetchedRequests.totalPages;
     requests = fetchedRequests.items.reverse();

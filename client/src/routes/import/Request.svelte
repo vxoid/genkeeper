@@ -15,7 +15,7 @@
     let link = url.createObjectURL(blob);
 
     let a = document.createElement("a");
-    a.setAttribute("download", `result.mp4`);
+    a.setAttribute("download", `result-${id}.mp4`);
     a.setAttribute("href", link);
     document.body.appendChild(a);
     a.click();

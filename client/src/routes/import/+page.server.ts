@@ -5,7 +5,7 @@ import { videoStorage } from '$lib/dotenv.js';
 import { PBHost } from '$lib/pocketbase.js';
 import * as path from 'path';
 
-const test_user_id = 'b34m5czzv4gz1ow';
+const test_user_id = 'v77oicktyx5f5im';
 
 class VideoRequest {
   constructor (private pb: PocketBase, private request: RecordModel) {}
@@ -22,7 +22,9 @@ class VideoRequest {
       const filteredSubtitles = (await batchedSubtitles.filterAI().catch(async (err) => await this.fail(err)));
       if (!filteredSubtitles)
         return;
-      const timecodes = filteredSubtitles.maxRandom(60);
+      const timecodes = filteredSubtitles.limit(6);
+      
+      // const timecodes = filteredSubtitles.maxRandom(60);
       const video = await videoProcess;
       if (!video)
         return;
@@ -81,9 +83,9 @@ export const actions = {
       }
 
       const pb = new PocketBase(PBHost);
-      const test_user = await pb.collection('users').getOne(test_user_id);
+      pb.authStore.save("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2xsZWN0aW9uSWQiOiJfcGJfdXNlcnNfYXV0aF8iLCJleHAiOjE3MjAzODAwODYsImlkIjoidjc3b2lja3R5eDVmNWltIiwidHlwZSI6ImF1dGhSZWNvcmQifQ.WnPvpyHEF7UA9XqAsRKTBfbQkRGLTyveGbKOychGCH0");
       
-      pb.authStore.save("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2xsZWN0aW9uSWQiOiJfcGJfdXNlcnNfYXV0aF8iLCJleHAiOjE3MTkxNTQ4NzUsImlkIjoiYjM0bTVjenp2NGd6MW93IiwidHlwZSI6ImF1dGhSZWNvcmQifQ.S8w5Y0JLBaSiK4bEZU6SwRgpcHNDFg-vubrN8Ax_txM", test_user);
+      const test_user = await pb.collection('users').getOne(test_user_id);
       const request = await pb.collection('requests').create({ 
         owner: test_user.id,
         status: "processing",
