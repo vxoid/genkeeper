@@ -15,7 +15,7 @@ class TextClassificationModel(torch.nn.Module):
     return self.linear1(pooled)
 
   def load(self, model_path: str):
-    self.load_state_dict(torch.load(model_path))
+    self.load_state_dict(torch.load(model_path, map_location=torch.device(self.device)))
 
   def train_model(self, train_loader, val_loader, criterion, optimizer, num_epochs: int = 10):
     for epoch in range(num_epochs):

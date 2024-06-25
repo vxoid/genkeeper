@@ -11,7 +11,7 @@ def get_device() -> str:
   gpu_available = torch.cuda.is_available()
   device = "cuda" if gpu_available else "cpu"
   color = Fore.GREEN if gpu_available else Fore.RED
-  print(color + f"THE MODEL IS RUNNING ON {device} DEVICE")
+  print(color + f"THE MODEL IS RUNNING ON {device} DEVICE" + Fore.RESET)
   return device
 
 class GenKeeper:
