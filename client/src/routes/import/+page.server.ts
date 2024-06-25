@@ -22,7 +22,7 @@ class VideoRequest {
       const filteredSubtitles = (await batchedSubtitles.filterAI().catch(async (err) => await this.fail(err)));
       if (!filteredSubtitles)
         return;
-      const timecodes = filteredSubtitles.limit(6);
+      const timecodes = filteredSubtitles;
       
       // const timecodes = filteredSubtitles.maxRandom(60);
       const video = await videoProcess;
