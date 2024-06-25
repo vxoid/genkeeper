@@ -28,7 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        pip install torch==2.3.0+cu118 torchvision==0.18.0+cu118 torchaudio==2.3.0+cu118 torchtext==0.18.0+cpu -f https://download.pytorch.org/whl/cu102/torch_stable.html
+        pip install torch==2.3.0+cu118 torchvision==0.18.0+cu118 torchaudio==2.3.0+cu118 torchtext==0.18.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
       working-directory: model
     - name: Lint with flake8
       run: |
