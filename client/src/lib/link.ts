@@ -37,8 +37,13 @@ export class YoutubeLink {
   }
 
   public getVideoPath(): string {
-    return path.join(tempStorage, `${this.id}.mp4`);
+    return path.join(tempStorage, `${this.id}v.mp4`);
   }
+
+  public getAudioPath(): string {
+    return path.join(tempStorage, `${this.id}a.mp4`);
+  }
+
 
   public async fetchCaptions(): Promise<Subtitles> {
     const subtitles = Subtitles.parse(await getSubtitles({ videoID: this.id, lang: "en" }));
@@ -46,23 +51,36 @@ export class YoutubeLink {
   }
 
   public async download(): Promise<YoutubeVideo> {
-    return new Promise(async (resolve, reject) => {
-      const video = new YoutubeVideo(this.id, this.getVideoPath());
+    return new Promise(async (resolve, _) => {
+      const video = new YoutubeVideo(this.id, this.getVideoPath(), this.getVideoPath());
 
       if (!(await video.exists())) {
-        ytdl(`https://www.youtube.com/watch?v=${this.id}`, {
-          // filter: function (format) {
-          //   return format.quality== "hd1080";
-          // },
-        })
-          .pipe(video.createWriteStream())
-          .on('finish', () => {
-            resolve(video);
+        const vidPromise = new Promise(async (resolve, reject) => {
+          ytdl(`https://www.youtube.com/watch?v=${this.id}`, {
+            filter: function (format) {
+              return format.itag == 137;
+            },
           })
-          .on('error', reject);
-      } else {
-        resolve(video);
+            .pipe(await video.createVidWriteStream())
+            .on('finish', resolve)
+            .on('error', reject);
+        });
+        const audPromise = new Promise(async (resolve, reject) => {
+          ytdl(`https://www.youtube.com/watch?v=${this.id}`, {
+            filter: function (format) {
+              return format.itag == 140;
+            },
+          })
+            .pipe(await video.createVidWriteStream())
+            .on('finish', resolve)
+            .on('error', reject);
+        });
+
+        await audPromise;
+        await vidPromise;
       }
+      
+      resolve(video);
     });
   }
 
