@@ -1,6 +1,6 @@
 import { getSubtitles } from 'youtube-caption-extractor';
 import { Subtitles } from './subtitles';
-import { videoStorage } from './dotenv';
+import { tempStorage } from './dotenv';
 import { YoutubeVideo } from './video';
 import * as path from 'path';
 import ytdl from 'ytdl-core';
@@ -37,7 +37,7 @@ export class YoutubeLink {
   }
 
   public getVideoPath(): string {
-    return path.join(videoStorage, `${this.id}.mp4`);
+    return path.join(tempStorage, `${this.id}.mp4`);
   }
 
   public async fetchCaptions(): Promise<Subtitles> {
@@ -47,10 +47,14 @@ export class YoutubeLink {
 
   public async download(): Promise<YoutubeVideo> {
     return new Promise(async (resolve, reject) => {
-      const video = new YoutubeVideo(this.getVideoPath());
+      const video = new YoutubeVideo(this.id, this.getVideoPath());
 
       if (!(await video.exists())) {
-        ytdl(`https://www.youtube.com/watch?v=${this.id}`, { quality: 'highest' })
+        ytdl(`https://www.youtube.com/watch?v=${this.id}`, {
+          // filter: function (format) {
+          //   return format.quality== "hd1080";
+          // },
+        })
           .pipe(video.createWriteStream())
           .on('finish', () => {
             resolve(video);

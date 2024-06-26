@@ -2,7 +2,7 @@ import { Subtitles } from './subtitles';
 import ffmpeg from 'fluent-ffmpeg';
 import { File } from './file';
 
-const chopVideoToBuffer = (inputFile: string, outputFile: string, subtitles: Subtitles): Promise<File> => {
+const chopVideoToFile = (inputFile: string, outputFile: string, subtitles: Subtitles): Promise<File> => {
   return new Promise((resolve, reject) => {
     let file = new File(outputFile);
     const filterComplex = subtitles.subtitles
@@ -24,16 +24,17 @@ const chopVideoToBuffer = (inputFile: string, outputFile: string, subtitles: Sub
       .on('end', () => {
         resolve(file);
       })
-      .on('error', (err) => {
-        console.log(`throwing error: ${err}`);
-        reject(err);
-      })
+      .on('error', reject)
       .run();
   });
 };
 
 export class YoutubeVideo extends File {
+  constructor(protected id: string, protected filePath: string) {
+    super(filePath);
+  }
+  
   public async chop(subtitles: Subtitles, outputFile: string): Promise<File> {
-    return chopVideoToBuffer(this.getPath(), outputFile, subtitles);
+    return chopVideoToFile(this.filePath, outputFile, subtitles);
   }
 }

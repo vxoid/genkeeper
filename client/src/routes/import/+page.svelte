@@ -4,7 +4,7 @@
 	import type { RecordModel } from 'pocketbase';
 	import { onDestroy, onMount } from 'svelte';
 	import Request from './Request.svelte';
-  import { pb } from '$lib/pocketbase';
+  import { currentToken, pb } from '$lib/pocketbase';
 
   /** @type {import('./$types').ActionData} */
   export let form = null;
@@ -43,6 +43,7 @@
     <p>Enter YouTube Link</p>
     <div class="importform">
       <input class="importlink" name="link" type="url" placeholder="https://" required>
+      <input class="importlink" name="token" type="hidden" value={$currentToken} hidden>
       <div class="submitparent">
         <button class="submitbutton">Import</button>
       </div>

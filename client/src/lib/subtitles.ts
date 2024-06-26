@@ -98,28 +98,20 @@ export class Subtitles {
   }
 
   public maxRandom(maxDuration: number): Subtitles {
-    let bestSubset: YoutubeSubtitle[] = [];
-    let bestDuration = 0;
+    let result: YoutubeSubtitle[] = [];
+    let totalDuration = 0;
   
-    const subsets = (subtitles: YoutubeSubtitle[], index: number, currentSubset: YoutubeSubtitle[], currentDuration: number) => {
-      if (currentDuration <= maxDuration && currentDuration > bestDuration) {
-        bestSubset = [...currentSubset];
-        bestDuration = currentDuration;
+    let shuffledSubtitles = this.subtitles.sort(() => Math.random() - 0.5);
+  
+    for (let subtitle of shuffledSubtitles) {
+      let duration = subtitle.duration();
+      if (totalDuration + duration <= maxDuration) {
+        result.push(subtitle);
+        totalDuration += duration;
       }
+    }
   
-      if (index === subtitles.length || currentDuration >= maxDuration) {
-        return;
-      }
-  
-      subsets(subtitles, index + 1, currentSubset, currentDuration);
-  
-      currentSubset.push(subtitles[index]);
-      subsets(subtitles, index + 1, currentSubset, currentDuration + subtitles[index].duration());
-      currentSubset.pop();
-    };
-  
-    subsets(this.subtitles, 0, [], 0);
-    return new Subtitles(bestSubset);
+    return new Subtitles(result);
   }
 
   public limit(limit: number): Subtitles {
