@@ -24,6 +24,7 @@ class VideoRequest {
       const subtitles = await youtubeLink.fetchCaptions().catch(async (err) => await this.fail(err));
       if (!subtitles)
         return;
+
       const batchedSubtitles = subtitles.batch(20);
       const filteredSubtitles = (await batchedSubtitles.filterAI().catch(async (err) => await this.fail(err)));
       if (!filteredSubtitles)
@@ -35,11 +36,11 @@ class VideoRequest {
       if (!video)
         return;
 
-      let resultVideo = await video.chop(timecodes, path.join(tempStorage, `${this.request.id}.mp4`)).catch(async (err) => await this.fail(err));
+      let resultVideo = await video.chop(timecodes, path.join(tempStorage, `${this.request.id}.mp4`), tempStorage, this.request.id).catch(async (err) => await this.fail(err));
       if (!resultVideo)
         return;
       
-      // video.delete();
+      video.delete();
   
       const formData = new FormData();
       resultVideo.buffer()

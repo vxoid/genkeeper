@@ -52,26 +52,18 @@ export class YoutubeLink {
 
   public async download(): Promise<YoutubeVideo> {
     return new Promise(async (resolve, _) => {
-      const video = new YoutubeVideo(this.id, this.getVideoPath(), this.getVideoPath());
+      const video = new YoutubeVideo(this.id, this.getVideoPath(), this.getAudioPath());
 
       if (!(await video.exists())) {
         const vidPromise = new Promise(async (resolve, reject) => {
-          ytdl(`https://www.youtube.com/watch?v=${this.id}`, {
-            filter: function (format) {
-              return format.itag == 137;
-            },
-          })
+          ytdl(`https://www.youtube.com/watch?v=${this.id}`, { quality: "highestvideo" })
             .pipe(await video.createVidWriteStream())
             .on('finish', resolve)
             .on('error', reject);
         });
         const audPromise = new Promise(async (resolve, reject) => {
-          ytdl(`https://www.youtube.com/watch?v=${this.id}`, {
-            filter: function (format) {
-              return format.itag == 140;
-            },
-          })
-            .pipe(await video.createVidWriteStream())
+          ytdl(`https://www.youtube.com/watch?v=${this.id}`, { quality: "highestaudio" })
+            .pipe(await video.createAudWriteStream())
             .on('finish', resolve)
             .on('error', reject);
         });
