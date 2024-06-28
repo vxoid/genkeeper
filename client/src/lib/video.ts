@@ -25,8 +25,6 @@ const chopVideoToFile = (subtitle: YoutubeSubtitle, inputVideoPath: string, inpu
         reject(err);
       })
       .run();
-
-    console.log(`ffmpeg -i ${inputVideoPath} -i ${inputAudioPath} -ss ${subtitle.start()} -t ${subtitle.duration()} -c:v copy -c:a copy -map 0:v:0 -map 1:a:0 ${outputVideo.getPath()}`);
   });
 }
 
